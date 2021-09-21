@@ -27,7 +27,6 @@
 # Mustafa Rawi <mustafa@cubexco.com>, 2020
 # Talal Albahra <talal.albahra@outlook.com>, 2020
 # Mustafa J. Kadhem <safi2266@gmail.com>, 2021
-# Mohamed Abuelmagd <mabuelmagd12@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -35,7 +34,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
-"Last-Translator: Mohamed Abuelmagd <mabuelmagd12@gmail.com>, 2021\n"
+"Last-Translator: Mustafa J. Kadhem <safi2266@gmail.com>, 2021\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,28 +47,28 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"Refused\""
-msgstr "\"مرفوض\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"This Month\""
-msgstr "\"هذا الشهر\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"This Week\""
-msgstr "\"هذا الاسبوع\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"Today\""
-msgstr "\"اليوم\""
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__delay_endings_days
@@ -114,19 +113,19 @@ msgstr "%s (نسخة)"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "%s Use the %s icon to organize your daily activities."
-msgstr "%s قم باستخدام %s الايقونه لترتب انشطتك اليوميه"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__10
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__10
 msgid "10"
-msgstr "10"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__11
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__11
 msgid "11"
-msgstr "11"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__12
@@ -138,115 +137,115 @@ msgstr "12"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__13
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__13
 msgid "13"
-msgstr "13"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__14
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__14
 msgid "14"
-msgstr "14"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__15
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__15
 msgid "15"
-msgstr "15"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__16
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__16
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__17
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__17
 msgid "17"
-msgstr "17"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__18
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__18
 msgid "18"
-msgstr "18"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__19
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__19
 msgid "19"
-msgstr "19"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__20
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__20
 msgid "20"
-msgstr "20"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__21
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__21
 msgid "21"
-msgstr "21"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__22
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__22
 msgid "22"
-msgstr "22"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__23
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__23
 msgid "23"
-msgstr "23"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__24
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__24
 msgid "24"
-msgstr "24"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__25
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__25
 msgid "25"
-msgstr "25"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__26
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__26
 msgid "26"
-msgstr "26"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__27
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__27
 msgid "27"
-msgstr "27"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__28
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__28
 msgid "28"
-msgstr "28"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__29
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__29
 msgid "29"
-msgstr "29"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__30
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__30
 msgid "30"
-msgstr "30"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__31
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__31
 msgid "31"
-msgstr "31"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -561,7 +560,7 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Add your task once it is ready."
-msgstr "قم باضافه مهامك عندما تكون جاهزه"
+msgstr ""
 
 #. module: project
 #: model:res.groups,name:project.group_project_manager
@@ -609,12 +608,12 @@ msgstr "الكل"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__employees
 msgid "All internal users"
-msgstr "جميع المستخدمين الداخليين"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__recurrence_update__all
 msgid "All tasks"
-msgstr "كل المهام"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__allow_subtasks
@@ -624,7 +623,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_internal_user_ids
 msgid "Allowed Internal Users"
-msgstr "المستخدميين الداخليين المسموح لهم"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_portal_user_ids
@@ -634,7 +633,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_user_ids
 msgid "Allowed User"
-msgstr "المستخدم  المسموح له"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
@@ -663,12 +662,12 @@ msgstr "أرشفة"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Archive Stages"
-msgstr "ارشفه مراحل"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 msgid "Archive project"
-msgstr "ارشفه مشروع"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -683,12 +682,12 @@ msgstr "مؤرشف"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
 msgid "Are you sure you want to continue?"
-msgstr "هل انت متاكد انك ترغب في الاستمرار؟"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Are you sure you want to delete those stages ?"
-msgstr "هل انت متاكد انك تريد مسح تلك المراحل؟"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1070,7 +1069,7 @@ msgstr "المرحلة الحالية لهذه المهمة"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_bounced_content
 msgid "Custom Bounced Message"
-msgstr "رسالة مرتدة مخصصة"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
@@ -1236,7 +1235,7 @@ msgstr "حذف"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 msgid "Delete Project"
-msgstr "مسح مشروع"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
@@ -1244,7 +1243,7 @@ msgstr "مسح مشروع"
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 #, python-format
 msgid "Delete Stage"
-msgstr "مسح مرحله"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1257,7 +1256,7 @@ msgstr "تم التسليم"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Describe your project..."
-msgstr "اوصف مشروعك ................................"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__description
@@ -1299,7 +1298,7 @@ msgstr "التسويق الرقمي"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__disabled_rating_warning
 msgid "Disabled Rating Warning"
-msgstr "انذارات التقييم الملغيه"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
@@ -1971,7 +1970,7 @@ msgstr "الأنشطة المتأخرة"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Late Tasks"
-msgstr "مهام متأخره"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -2017,7 +2016,7 @@ msgstr ""
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "Let's start working on your task."
-msgstr "لنبدأ بالعمل علي مهامك"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.rating_rating_action_project_report
@@ -2174,7 +2173,7 @@ msgstr "الاسم"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Name of the tasks:"
-msgstr "اسم المهام:"
+msgstr ""
 
 #. module: project
 #: model:project.task,legend_blocked:project.project_task_10
@@ -2279,12 +2278,12 @@ msgstr "لم ينشر العميل تقييمات بعد"
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all
 #: model_terms:ir.actions.act_window,help:project.open_view_project_all_config
 msgid "No projects found. Let's create one!"
-msgstr "لا يوجد مشروع للنشئ واحد!"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.project_tags_action
 msgid "No tags found. Let's create one!"
-msgstr "لا توجد وسوم لننشئ واحده!"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.actions.act_window,help:project.act_project_project_2_project_task_all
@@ -2292,7 +2291,7 @@ msgstr "لا توجد وسوم لننشئ واحده!"
 #: model_terms:ir.actions.act_window,help:project.action_view_task
 #: model_terms:ir.actions.act_window,help:project.project_task_action_sub_task
 msgid "No tasks found. Let's create one!"
-msgstr "لا يوجد مهام ز للنشئ واحده!"
+msgstr ""
 
 #. module: project
 #: code:addons/project/controllers/portal.py:0
@@ -2322,7 +2321,7 @@ msgstr "عدد الإجراءات"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_type__after
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_type__after
 msgid "Number of Repetitions"
-msgstr "عدد مرات التكرار"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_report_project_task_user__working_days_open
@@ -2360,12 +2359,12 @@ msgstr "عدد الرسائل الحادث بها خطأ في التسليم"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type_delete_wizard__tasks_count
 msgid "Number of tasks"
-msgstr "عدد المهام"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_recurrence__recurrence_left
 msgid "Number of tasks left to create"
-msgstr "عدد المهام المتبقيه للانشاء"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__message_unread_counter
@@ -2389,7 +2388,7 @@ msgstr "موافق"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Old Completed Sprint"
-msgstr "سبرينت قديم مكتمل"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__rating_status_period__monthly
@@ -3668,7 +3667,7 @@ msgstr "هذه الخطوة مكتملة. اضغط لحظرها أو تعيين�
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__recurrence_update__this
 msgid "This task"
-msgstr "تلك المهمه"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
@@ -3872,7 +3871,7 @@ msgstr "الظهور"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__allowed_user_ids
 msgid "Visible to"
-msgstr "مرئي ل:"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -3989,7 +3988,7 @@ msgstr "سنويًا"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_unit__year
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_unit__year
 msgid "Years"
-msgstr "سنوات"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.task_type_edit
@@ -4004,8 +4003,6 @@ msgstr "يمكنك أيضًا إضافة وصف لمساعدة زملائك عل
 msgid ""
 "You cannot archive recurring tasks. Please, disable the recurrence first."
 msgstr ""
-"لا يمكنك ارشفه مهام متكرره .\n"
-" من فضلك قم بالغاء التكرار اولا."
 
 #. module: project
 #: code:addons/project/models/analytic_account.py:0
@@ -4013,7 +4010,7 @@ msgstr ""
 msgid ""
 "You cannot change the company of an analytical account if it is related to a"
 " project."
-msgstr "لا يمكنك تغيير شركه حساب تحليلي اذا كان مرتبط بمشروع"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0
@@ -4045,8 +4042,6 @@ msgid ""
 "You cannot delete stages containing tasks. You should first delete all of "
 "their tasks."
 msgstr ""
-"لا يمكنك مسح مراحل تحتاوي علي مهام.\n"
-"يجب ان تمسح كل المهام اولا."
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
@@ -4066,7 +4061,7 @@ msgstr "لمشروع:"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
 msgid "in stage:"
-msgstr "في مرحله:"
+msgstr ""
 
 #. module: project
 #: code:addons/project/models/project.py:0

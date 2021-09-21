@@ -240,7 +240,7 @@ msgstr "Gezinmeye Devam Edin"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Create content that will help our users on a daily basis"
-msgstr "Kullanıcılarımıza günlük bazda yardımcı olacak içerikler oluşturun."
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
@@ -441,7 +441,6 @@ msgstr ""
 msgid ""
 "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
-"Kurumsal süreçlerde, gerçek sorumluluklarda ve özerklikte zaman kaybı yok"
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
@@ -451,27 +450,27 @@ msgstr "Açık Pozisyonlarımız"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Our Product"
-msgstr "Ürünümüz"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Passion for software products"
-msgstr "Yazılım ürünlerine karşı tutku"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Perfect written English"
-msgstr "Mükemmel yazılı İngilizce"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Perks"
-msgstr "Avantajlar"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Personal Evolution"
-msgstr "Kişisel Gelişim"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -481,12 +480,12 @@ msgstr ""
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Qualify the customer needs"
-msgstr "Müşteri ihtiyaçlarını nitelendir"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Real responsibilities and challenges in a fast evolving company"
-msgstr "Hızla gelişen bir şirkette gerçek sorumluluklar ve meydan okumalar"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
@@ -521,7 +520,7 @@ msgstr "Spor Etkinliği"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Strong analytical skills"
-msgstr "Güçlü analitik beceriler"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
@@ -531,7 +530,7 @@ msgstr "Gönder"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Technical Expertise"
-msgstr "Teknik Uzmanlık"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.model.fields,help:website_hr_recruitment.field_hr_job__website_url
@@ -541,7 +540,7 @@ msgstr "Belgeye web sitesinden erişim için tam URL adresi."
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Trainings"
-msgstr "Eğitimler"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_recruitment_source__url
@@ -551,7 +550,7 @@ msgstr "Web Adresi Parametreleri"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Valid work permit for Belgium"
-msgstr "Belçika için geçerli çalışma izni"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__website_published
@@ -609,7 +608,7 @@ msgstr "Web sitesi açılış grafiği görüntüsü "
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "What We Offer"
-msgstr "Teklifimiz"
+msgstr ""
 
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description

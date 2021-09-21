@@ -10,11 +10,11 @@
 # Haojun Zou <apollo_zhj@msn.com>, 2021
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2021
 # Kim Asplund <kim.asplund@gmail.com>, 2021
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Daniel Osser <danielosser@gmail.com>, 2021
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
 # Simon Strömberg <simon.stromberg@vertel.se>, 2021
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -22,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
-"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2021\n"
+"Last-Translator: Simon Strömberg <simon.stromberg@vertel.se>, 2021\n"
 "Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,13 +35,13 @@ msgstr ""
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 #, python-format
 msgid "%d days overdue"
-msgstr "%ddagar försenad"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid "%s is not the reference of a report"
-msgstr "%s är inte referensen till en rapport"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
@@ -54,13 +54,11 @@ msgid ""
 "<i class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Previous\" "
 "title=\"Previous\"/>"
 msgstr ""
-"<i class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Previous\" "
-"title=\"Previous\"/>"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.record_pager
 msgid "<i class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
-msgstr "<i class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
@@ -70,7 +68,7 @@ msgstr "<i class=\"fa fa-pencil mx-1\"/>Redigera säkerhetsinställningarna"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 msgid "<i class=\"fa fa-pencil\"/> Edit"
-msgstr "<i class=\"fa fa-pencil\"/> Ändra"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
@@ -90,7 +88,7 @@ msgstr "<span class=\"small mr-1 navbar-text\">Sortera med:</span>"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "<strong>Open </strong>"
-msgstr "<strong>Öppna </strong>"
+msgstr ""
 
 #. module: portal
 #: model:mail.template,body_html:portal.mail_template_data_portal_welcome
@@ -184,7 +182,7 @@ msgstr ""
 #: code:addons/portal/static/src/js/portal_signature.js:0
 #, python-format
 msgid "Accept & Sign"
-msgstr "Acceptera & Signera"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_warning
@@ -207,23 +205,23 @@ msgstr "Lägg till notering"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 #, python-format
 msgid "Add attachment"
-msgstr "Lägg till bilaga"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Add contacts to share the document..."
-msgstr "Lägg till kontakter att dela dokument med..."
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_share__note
 msgid "Add extra content to display in the email"
-msgstr "Lägg till extra innehåll i e-posten"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/mail.py:0
 #, python-format
 msgid "An access token must be provided for each attachment."
-msgstr "En åtkomsttoken måste anges för respektive dokument."
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -258,8 +256,6 @@ msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
 msgstr ""
-"Ändra org. nummer är inte tillåtet när dokument(en har tilldelas ditt konto."
-" Kontakta oss direkt för detta."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -273,7 +269,7 @@ msgstr ""
 #: code:addons/portal/static/src/js/portal.js:0
 #, python-format
 msgid "Check failed"
-msgstr "Kontroll misslyckades"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -285,7 +281,7 @@ msgstr "Stad"
 #: code:addons/portal/static/src/xml/portal_signature.xml:0
 #, python-format
 msgid "Click here to see your document."
-msgstr "Klicka här för att se ditt dokument"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
@@ -303,8 +299,6 @@ msgid ""
 "Confirm\n"
 "                                <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
-"Bekräfta\n"
-"                                <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: portal
 #. openerp-web
@@ -334,7 +328,7 @@ msgstr "Kontakter"
 #: code:addons/portal/static/src/js/portal_composer.js:0
 #, python-format
 msgid "Could not save file <strong>%s</strong>"
-msgstr "Kunde inte spara fil <strong>%s</strong>"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -368,8 +362,6 @@ msgid ""
 "Currently available to everyone viewing this document, click to restrict to "
 "internal employees."
 msgstr ""
-"I dagsläget tillgängligt för alla att granska dokumentet. Klicka på begränsa"
-" till interna anställda."
 
 #. module: portal
 #. openerp-web
@@ -379,18 +371,16 @@ msgid ""
 "Currently restricted to internal employees, click to make it available to "
 "everyone viewing this document."
 msgstr ""
-"Just nu begränsat till interna användare. Klicka för att göra det "
-"tillgängligt för alla."
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_mixin__access_url
 msgid "Customer Portal URL"
-msgstr "URL till kundportal"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "Dear"
-msgstr "Bästa"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -428,14 +418,14 @@ msgstr "Dokument"
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 #, python-format
 msgid "Due in %d days"
-msgstr "Förfaller om %d dagar"
+msgstr ""
 
 #. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 #, python-format
 msgid "Due today"
-msgstr "Förfaller idag"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__email
@@ -453,25 +443,25 @@ msgstr "E-posttråd"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 #, python-format
 msgid "Employees Only"
-msgstr "Anställda enbart"
+msgstr ""
 
 #. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/js/portal.js:0
 #, python-format
 msgid "Forgot password?"
-msgstr "Glömt lösenord?"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Grant Portal Access"
-msgstr "Bevilja åtkomst till portal"
+msgstr ""
 
 #. module: portal
 #: model:ir.actions.act_window,name:portal.partner_wizard_action
 msgid "Grant portal access"
-msgstr "Bevilja åtkomst till portal"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_http
@@ -511,7 +501,7 @@ msgstr "Felaktig epost! Vänligen fyll i en giltig epost."
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid "Invalid report type: %s"
-msgstr "Ogiltigsvarstyp: %s"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__welcome_message
@@ -560,7 +550,7 @@ msgstr "Länk"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__user_id
 msgid "Login User"
-msgstr "Logga in användare"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
@@ -579,8 +569,6 @@ msgid ""
 "Model %(model_name)s does not support token signature, as it does not have "
 "%(field_name)s field."
 msgstr ""
-"Model %(model_name)s stöder inte symbolisk signatur så den har "
-"%(field_name)sfält."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
@@ -595,7 +583,7 @@ msgstr "Namn"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "New Password:"
-msgstr "Nytt lösenord:"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -622,7 +610,6 @@ msgstr "Odoo Logo"
 #, python-format
 msgid "Oops! Something went wrong. Try to reload the page and log in."
 msgstr ""
-"Hoppan! Nu gick något fel! Försök att ladda om sidan och logga in igen."
 
 #. module: portal
 #. openerp-web
@@ -634,12 +621,12 @@ msgstr "Lösenord"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Password Updated!"
-msgstr "Lösenord uppdaterat!"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Password:"
-msgstr "Lösenord:"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -651,22 +638,22 @@ msgstr "Telefon"
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 #, python-format
 msgid "Please confirm your password to continue"
-msgstr "Bekräfta ditt lösenord för att fortsätta"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_url
 msgid "Portal Access URL"
-msgstr "URL till portal"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_mixin
 msgid "Portal Mixin"
-msgstr "Portal mixin"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_share
 msgid "Portal Sharing"
-msgstr "Portaldelning"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard_user
@@ -728,7 +715,7 @@ msgstr "Säkerhet"
 #: code:addons/portal/static/src/js/portal.js:0
 #, python-format
 msgid "Security Control"
-msgstr "Säkerhetskontroll"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_token
@@ -755,7 +742,7 @@ msgstr "Skicka"
 #: code:addons/portal/wizard/portal_wizard.py:0
 #, python-format
 msgid "Several contacts have the same email: "
-msgstr "Flera kontakter har samma e-postadress:"
+msgstr ""
 
 #. module: portal
 #: model:ir.actions.act_window,name:portal.portal_share_action
@@ -777,13 +764,13 @@ msgstr "Logga in"
 #: code:addons/portal/wizard/portal_wizard.py:0
 #, python-format
 msgid "Some contacts don't have a valid email: "
-msgstr "Vissa kontakter har ingen giltig e-postadress:"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:0
 #, python-format
 msgid "Some contacts have the same email as an existing portal user:"
-msgstr "Vissa kontakter har samma e-postadress som befintlig användare:"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
@@ -813,21 +800,20 @@ msgstr "Tack!"
 #, python-format
 msgid "The attachment %s cannot be removed because it is linked to a message."
 msgstr ""
-"Bilagan %s kan inte raderas eftersom den är länkad till ett meddelande."
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid ""
 "The attachment %s cannot be removed because it is not in a pending state."
-msgstr "Bilagan %s kan inte raderas eftersom den är i ett väntande tillstånd."
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/mail.py:0
 #, python-format
 msgid ""
 "The attachment %s does not exist or you do not have the rights to access it."
-msgstr "Bilagan %s finns inte eller så har du inte åtkomst till den."
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
@@ -835,14 +821,13 @@ msgstr "Bilagan %s finns inte eller så har du inte åtkomst till den."
 msgid ""
 "The attachment does not exist or you do not have the rights to access it."
 msgstr ""
-"Bilagan existerar inte eller så har du inte rätt rättigheter till den."
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid ""
 "The document does not exist or you do not have the rights to access it."
-msgstr "Dokumentet finns inte eller så saknar du rättigheter till det."
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
@@ -869,7 +854,7 @@ msgstr "Det finns inga kommentarer just nu."
 #: code:addons/portal/controllers/portal.py:0
 #, python-format
 msgid "This document does not exist."
-msgstr "Dokumentet finns inte."
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
@@ -884,21 +869,16 @@ msgid ""
 "This is necessary for security-related changes. The authorization will last "
 "for a few minutes."
 msgstr ""
-"Detta är nödvändigt försäkerhetsrelaterade ändringar. Auktoriseringen pågår "
-"ett par minuter."
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "This text is included in the email sent to new portal users."
 msgstr ""
-"Denna text inkluderas i det e-post som skickas till nya protalanvändare."
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_wizard__welcome_message
 msgid "This text is included in the email sent to new users of the portal."
 msgstr ""
-"Denna text inkluderas i det e-post som skickas till nya användaren av "
-"portalen."
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:0
@@ -912,7 +892,7 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "Toggle filters"
-msgstr "Växla filter"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__user_ids
@@ -927,7 +907,7 @@ msgstr "Skatteregisteringsnummer"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Verify New Password:"
-msgstr "Ange nytt lösenord:"
+msgstr ""
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_ui_view
@@ -1026,7 +1006,7 @@ msgstr "Skriv ett meddelande..."
 #: code:addons/portal/wizard/portal_share.py:0
 #, python-format
 msgid "You are invited to access %s"
-msgstr "Du har getts åtkomst till %s"
+msgstr ""
 
 #. module: portal
 #: code:addons/portal/controllers/portal.py:0
@@ -1037,7 +1017,7 @@ msgstr "Du kan inte ange ett tomt lösenord"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "You have been invited to access the following document:"
-msgstr "Du har bjudits in att följa dokumentet:"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -1052,17 +1032,16 @@ msgstr "Du måste vara"
 msgid ""
 "You must have an email address in your User Preferences to send emails."
 msgstr ""
-"Du måste ha en e-postadress i din användare för att kunna ta emot e-post."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
 msgid "Your Odoo account at ${object.user_id.company_id.name}"
-msgstr "Ditt konto på ${object.user_id.company_id.name}"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_contact
 msgid "Your contact"
-msgstr "Din kontakt"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -1074,7 +1053,7 @@ msgstr "Postnummer"
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 #, python-format
 msgid "avatar"
-msgstr "avatar"
+msgstr ""
 
 #. module: portal
 #. openerp-web
@@ -1100,12 +1079,12 @@ msgstr "inloggad"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "odoo"
-msgstr "odoo"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "password"
-msgstr "lösenord"
+msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details

@@ -1798,7 +1798,7 @@ msgstr ""
 #. module: survey
 #: model:ir.model,name:survey.model_gamification_badge
 msgid "Gamification Badge"
-msgstr "نشان بازی‌گونه‌سازی"
+msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_gamification_challenge

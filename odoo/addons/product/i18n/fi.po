@@ -26,7 +26,6 @@
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2021
 # Mikko Virtanen <mikko.virtanen2013@gmail.com>, 2021
 # Miika Nissi <miika.nissi@tawasta.fi>, 2021
-# Antti Oksman <antti.oksman@web-veistamo.fi>, 2021
 # 
 msgid ""
 msgstr ""
@@ -34,7 +33,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
-"Last-Translator: Antti Oksman <antti.oksman@web-veistamo.fi>, 2021\n"
+"Last-Translator: Miika Nissi <miika.nissi@tawasta.fi>, 2021\n"
 "Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -282,7 +281,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_sale_pricelist
 #: model:res.groups,name:product.group_sale_pricelist
 msgid "Advanced Pricelists"
-msgstr "Edistyneet hintaryhmäyt"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_pricelist_setting__advanced
@@ -445,7 +444,7 @@ msgstr "Perustuen"
 #. module: product
 #: model:res.groups,name:product.group_product_pricelist
 msgid "Basic Pricelists"
-msgstr "Perus hintaryhmät"
+msgstr ""
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_4
@@ -687,12 +686,12 @@ msgstr "Luotu"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__1
 msgid "Cubic Feet"
-msgstr "Kuutiojalka"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__0
 msgid "Cubic Meters"
-msgstr "Kuutiometri"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__currency_id
@@ -887,7 +886,7 @@ msgstr "Kesto"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__dynamic
 msgid "Dynamically"
-msgstr "Dynaamisesti"
+msgstr ""
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_template_attribute_value_attribute_value_unique
@@ -990,7 +989,7 @@ msgstr "Neljän hengen työpöytä"
 #: model:product.product,description_sale:product.consu_delivery_03
 #: model:product.template,description_sale:product.consu_delivery_03_product_template
 msgid "Four person modern office workstation"
-msgstr "Neljän hengen moderni toimisto työasema"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
@@ -1201,7 +1200,7 @@ msgstr "Yksilöllinen työpaikka"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__always
 msgid "Instantly"
-msgstr "Välittömästi"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -1239,7 +1238,7 @@ msgstr "Onko Product Variant"
 #: model:ir.model.fields,field_description:product.field_product_product__has_configurable_attributes
 #: model:ir.model.fields,field_description:product.field_product_template__has_configurable_attributes
 msgid "Is a configurable product"
-msgstr "On muokattava tuote"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template__is_product_variant
@@ -1611,20 +1610,20 @@ msgstr ""
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Please specify the category for which this rule should be applied"
-msgstr "Määrittely kategoria johon sääntö pätee"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Please specify the product for which this rule should be applied"
-msgstr "Määrittele tuote johon sääntö pätee"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid ""
 "Please specify the product variant for which this rule should be applied"
-msgstr "Määritä tuotevariantti johon sääntöä käytetään"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__1
@@ -1845,7 +1844,7 @@ msgstr "Tuotekategoria"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_sale_product_configurator
 msgid "Product Configurator"
-msgstr "Tuote muokkaus"
+msgstr ""
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_label
@@ -1976,7 +1975,7 @@ msgstr "Tuotteiden hinnastot"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
 msgid "Products Price Rules Search"
-msgstr "Tuotteiden hintasääntöjen haku"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_search
@@ -2039,7 +2038,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__qty
 msgid "Quantity of products contained in the packaging."
-msgstr "Tuotteiden määrä paketissa"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__radio
@@ -2062,12 +2061,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_attribute__product_tmpl_ids
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Related Products"
-msgstr "Liittyvät tuotteet"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__ptav_product_variant_ids
 msgid "Related Variants"
-msgstr "Liittyvät variantit"
+msgstr ""
 
 #. module: product
 #. openerp-web
@@ -2287,7 +2286,7 @@ msgstr ""
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "The attribute %s must have at least one value for the product %s."
-msgstr "Atribuutilla %s pitää olla vähintään yksi arvo tuotteelle %s."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__attribute_id
@@ -2295,8 +2294,6 @@ msgid ""
 "The attribute cannot be changed once the value is used on at least one "
 "product."
 msgstr ""
-"Attribuuttia ei voi vaihtaa sen jälkeen kun arvoa on käytetty vähintään "
-"yhdessä tuotteessa."
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -2635,7 +2632,7 @@ msgstr "Variantin kuva"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1024
 msgid "Variant Image 1024"
-msgstr "Variantti kuva 1024"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_128
@@ -2991,7 +2988,7 @@ msgstr "esimerkiksi. USD-jälleenmyyjät"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "per"
-msgstr "kohti"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product.py:0
@@ -3008,7 +3005,7 @@ msgstr "emoyhtiö"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "the product template."
-msgstr "tuotepohja"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view

@@ -8,14 +8,13 @@
 # Bengt Evertsson <zyberfart@gmail.com>, 2021
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2021
 # Robert Frykelius <robert.frykelius@linserv.se>, 2021
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2021
 # Anto Nilsson <anton.nilsson@vertel.se>, 2021
 # Kristoffer Grundström <lovaren@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Kim Asplund <kim.asplund@gmail.com>, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
-# STefan Rundgren <stefanrundgren@cellglas.com>, 2021
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Simon Strömberg <simon.stromberg@vertel.se>, 2021
 # 
 msgid ""
@@ -99,7 +98,7 @@ msgstr "1 år"
 #: model:product.product,description_sale:product.product_product_4d
 #: model:product.template,description_sale:product.product_product_4_product_template
 msgid "160x80cm, with large legs."
-msgstr "160x80cm, med stora ben."
+msgstr ""
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_6
@@ -129,9 +128,6 @@ msgid ""
 "                              <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Cost  -  </span>\n"
 "                              <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Other Pricelist  -  </span>"
 msgstr ""
-"<span attrs=\"{'invisible':[('base', '!=', 'list_price')]}\">Försäljningspris  -  </span>\n"
-"                              <span attrs=\"{'invisible':[('base', '!=', 'standard_price')]}\">Kostnad  -  </span>\n"
-"                              <span attrs=\"{'invisible':[('base', '!=', 'pricelist')]}\">Annan prislista  -  </span>"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
@@ -166,9 +162,6 @@ msgid ""
 "                        will delete and recreate existing variants and lead\n"
 "                        to the loss of their possible customizations."
 msgstr ""
-"<strong>Varning</strong>: att lägga till eller ta bort egenskaper\n"
-"                        kommer att ta bort och återskapa befintliga varianter och leda \n"
-"                        till att deras möjliga konfigurationer förloras."
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_product_barcode_uniq
@@ -237,19 +230,19 @@ msgstr "Aktiviteter"
 #: model:ir.model.fields,field_description:product.field_product_product__activity_exception_decoration
 #: model:ir.model.fields,field_description:product.field_product_template__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoration för aktivitetsundantag"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__activity_state
 #: model:ir.model.fields,field_description:product.field_product_template__activity_state
 msgid "Activity State"
-msgstr "Aktivitetsstatus"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__activity_type_icon
 #: model:ir.model.fields,field_description:product.field_product_template__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Aktivitetstypsikon"
+msgstr ""
 
 #. module: product
 #. openerp-web
@@ -299,7 +292,7 @@ msgstr ""
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_inherit
 msgid "Applicable On"
-msgstr "Applicerbar på"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view
@@ -553,7 +546,7 @@ msgstr "Konfiguration"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Configure Variants"
-msgstr "Konfigurera varianter"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__consu
@@ -699,7 +692,7 @@ msgstr ""
 #: model:product.product,name:product.product_product_4d
 #: model:product.template,name:product.product_product_4_product_template
 msgid "Customizable Desk (CONFIG)"
-msgstr "Anpassningsbart skrivbord (CONFIG)"
+msgstr ""
 
 #. module: product
 #: model:product.product,uom_name:product.expense_hotel
@@ -753,7 +746,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__delay
 msgid "Delivery Lead Time"
-msgstr "Leveranstid"
+msgstr "Delivery Lead Time"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description
@@ -835,7 +828,7 @@ msgstr "Visningsnamn"
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__display_type
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__display_type
 msgid "Display Type"
-msgstr "Visningstyp"
+msgstr ""
 
 #. module: product
 #: model:product.product,name:product.product_product_27
@@ -940,7 +933,7 @@ msgstr "Följare (kontakter)"
 #: model:ir.model.fields,help:product.field_product_product__activity_type_icon
 #: model:ir.model.fields,help:product.field_product_template__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesomeikon t.ex fa-tasks"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
@@ -1077,15 +1070,13 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__message_has_error
 #: model:ir.model.fields,help:product.field_product_template__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Om markerad så har det blivit ett leveransfel för några  meddelanden."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
 msgid ""
 "If not set, the vendor price will apply to all variants of this product."
 msgstr ""
-"Om ej vald kommer leverantörspriset att ställas in för alla varianter av "
-"denna produkt. "
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -1143,7 +1134,7 @@ msgstr ""
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "Import Template for Products"
-msgstr "Importmall för produkter"
+msgstr ""
 
 #. module: product
 #: code:addons/product/models/product.py:0
@@ -1358,7 +1349,7 @@ msgstr "Administrera produktemballage"
 #. module: product
 #: model:res.groups,name:product.group_product_variant
 msgid "Manage Product Variants"
-msgstr "Hantera produktvarianter"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -1771,7 +1762,7 @@ msgstr "Produktattribut"
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_custom_value
 msgid "Product Attribute Custom Value"
-msgstr "Anpassat värde för produktattribut"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line__product_template_value_ids
@@ -1854,7 +1845,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_stock_packaging
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_tree_view
 msgid "Product Packagings"
-msgstr "Produktförpackning"
+msgstr ""
 
 #. module: product
 #: model:ir.model,name:product.model_product_template
@@ -1914,7 +1905,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_activity
 msgid "Product Variants"
-msgstr "Produktvarianter"
+msgstr "Variant"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
@@ -2039,7 +2030,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__ptav_product_variant_ids
 msgid "Related Variants"
-msgstr "Relaterade varianter"
+msgstr ""
 
 #. module: product
 #. openerp-web
@@ -2075,7 +2066,7 @@ msgstr "Försäljning"
 #: model:ir.model.fields,field_description:product.field_product_template__description_sale
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Sales Description"
-msgstr "Försäljningsbeskrivning"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_sale_product_matrix
@@ -2089,7 +2080,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 msgid "Sales Price"
-msgstr "Försäljningspris"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__select
@@ -2209,10 +2200,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baserad på aktiviteter\n"
-"Försenade: Förfallodagen har passerat\n"
-"Idag: Aktivitetsdatum är idag\n"
-"Kommande: Framtida aktiviteter."
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
@@ -2371,12 +2358,12 @@ msgstr "Summan av tillägg för alla attribut"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is added to sales orders and invoices."
-msgstr "Denna anteckning läggs till på säljordrar och kundfakturor."
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is only for internal purposes."
-msgstr "Den här anteckningen är endast för interna ändamål."
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_partner__property_product_pricelist
@@ -2432,7 +2419,7 @@ msgstr "Dagens aktiviteter"
 #: model:ir.model.fields,help:product.field_product_product__activity_exception_decoration
 #: model:ir.model.fields,help:product.field_product_template__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Typ av undantagsaktivitet i posten"
+msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -2632,12 +2619,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
-msgstr "Varianter"
+msgstr "Variants"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variants Creation Mode"
-msgstr "Variantskaparläge"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__name
@@ -2665,17 +2652,17 @@ msgstr "Leverantörsprislistor"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_code
 msgid "Vendor Product Code"
-msgstr "Leverantörens produktkod"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_name
 msgid "Vendor Product Name"
-msgstr "Leverantörens produktnamn"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__name
 msgid "Vendor of this product"
-msgstr "Leverantör av denna produkt"
+msgstr ""
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__seller_ids

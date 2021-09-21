@@ -24,7 +24,6 @@
 # Shaima Safar <shaima.safar@open-inside.com>, 2020
 # Mustafa Rawi <mustafa@cubexco.com>, 2021
 # Rachid Al Assir <rachidalassir@gmail.com>, 2021
-# Mohamed Abuelmagd <mabuelmagd12@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -32,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-04 15:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
-"Last-Translator: Mohamed Abuelmagd <mabuelmagd12@gmail.com>, 2021\n"
+"Last-Translator: Rachid Al Assir <rachidalassir@gmail.com>, 2021\n"
 "Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -225,7 +224,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "10"
-msgstr "10"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -236,7 +235,7 @@ msgstr "100%"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "11"
-msgstr "11"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
@@ -247,22 +246,22 @@ msgstr "12"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "13"
-msgstr "13"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "14"
-msgstr "14"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "15"
-msgstr "15"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_dynamic_snippet_options_template
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_view

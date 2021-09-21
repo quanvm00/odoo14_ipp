@@ -8,7 +8,6 @@
 # gezza <geza.nagy@oregional.hu>, 2021
 # Ákos Nagy <akos.nagy@oregional.hu>, 2021
 # Tamás Németh <ntomasz81@gmail.com>, 2021
-# Tamás Dombos, 2021
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
-"Last-Translator: Tamás Dombos, 2021\n"
+"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +43,7 @@ msgstr "# Várakozó"
 msgid ""
 "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" "
 "title=\"Period\"/><strong> From: </strong>"
-msgstr "Kezdődátum"
+msgstr ""
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
@@ -54,7 +53,7 @@ msgstr ""
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_kanban
 msgid "<strong> To:</strong>"
-msgstr "Záró dátum"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner__associate_member
@@ -219,7 +218,7 @@ msgstr "Dátum melyen a tagság érvénytelenítve lett"
 #: model:ir.model.fields,help:membership.field_res_partner__membership_stop
 #: model:ir.model.fields,help:membership.field_res_users__membership_stop
 msgid "Date until which membership remains active."
-msgstr "Dátum ameddig a tagság aktív marad."
+msgstr "Dátum ameddig a tagság aktív maradhat."
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_account_move__display_name
@@ -241,27 +240,27 @@ msgstr "Beérkező / megkeresett összeg"
 #: model:ir.model.fields,field_description:membership.field_report_membership__date_to
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "End Date"
-msgstr "Záródátum"
+msgstr "Befejezés dátuma"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "End Membership Date"
-msgstr "Tagság megszűnésének dátuma"
+msgstr "Utolsó tagsági dátum"
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_report_membership__date_to
 msgid "End membership date"
-msgstr "Tagság megszűnésének dátuma"
+msgstr "Tagság vége dátum"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Ending Date Of Membership"
-msgstr "Tagság megszűnésének dátuma"
+msgstr "Tagság befejező dátuma"
 
 #. module: membership
 #: model:ir.model.constraint,message:membership.constraint_product_template_membership_date_greater
 msgid "Error ! Ending Date cannot be set before Beginning Date."
-msgstr "Hiba! A megszűnés időpontja nem lehet előbb, mint a kezdés időpontja."
+msgstr "Hiba ! A befejezés időpontja nem lehet előbb mint a kezdés időpontja."
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -421,7 +420,7 @@ msgstr "Tag"
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice__member_price
 msgid "Member Price"
-msgstr "Tagdíj"
+msgstr "Tagság ára"
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_members
@@ -435,7 +434,7 @@ msgstr "Tagok"
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_report_membership_tree
 msgid "Members Analysis"
-msgstr "Tagok elemzése"
+msgstr "Tagok analízisei/elemzései"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice__product_id
@@ -455,12 +454,12 @@ msgstr "Tagság"
 #: model:ir.model.fields,field_description:membership.field_res_partner__membership_amount
 #: model:ir.model.fields,field_description:membership.field_res_users__membership_amount
 msgid "Membership Amount"
-msgstr "Tagdíj összege"
+msgstr "Tagság összege"
 
 #. module: membership
 #: model:ir.model,name:membership.model_report_membership
 msgid "Membership Analysis"
-msgstr "Tagság elemzés"
+msgstr "Tagság analízis/elemzés"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_form
@@ -473,14 +472,14 @@ msgstr "Tagság időtartama"
 #: model:ir.model.fields,field_description:membership.field_res_partner__membership_stop
 #: model:ir.model.fields,field_description:membership.field_res_users__membership_stop
 msgid "Membership End Date"
-msgstr "Tagság megszűnésének dátuma"
+msgstr "Tagság befejezés dátuma"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__member_price
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_form
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_tree
 msgid "Membership Fee"
-msgstr "Tagdíj"
+msgstr "Tagsági díj"
 
 #. module: membership
 #: model:ir.model,name:membership.model_membership_invoice
@@ -491,7 +490,7 @@ msgstr "Tagsági számla"
 #. module: membership
 #: model:ir.model,name:membership.model_membership_membership_line
 msgid "Membership Line"
-msgstr "Tagsági sor"
+msgstr ""
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
@@ -518,17 +517,17 @@ msgstr "Tagsági termékek"
 #: model:ir.model.fields,field_description:membership.field_res_partner__membership_start
 #: model:ir.model.fields,field_description:membership.field_res_users__membership_start
 msgid "Membership Start Date"
-msgstr "Tagság kezdetének dátuma"
+msgstr "Tagság kezdő dátum"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Membership State"
-msgstr "Tagság állapota"
+msgstr "Tagsági szint"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__state
 msgid "Membership Status"
-msgstr "Tagság állapota"
+msgstr "Tagsági állapot"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_form
@@ -577,14 +576,14 @@ msgstr ""
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__old
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__old
 msgid "Old Member"
-msgstr "Korábbi tag"
+msgstr "Régi tag"
 
 #. module: membership
 #: model:ir.model.fields.selection,name:membership.selection__membership_membership_line__state__paid
 #: model:ir.model.fields.selection,name:membership.selection__report_membership__membership_state__paid
 #: model:ir.model.fields.selection,name:membership.selection__res_partner__membership_state__paid
 msgid "Paid Member"
-msgstr "Kifizetett tag"
+msgstr "Kifizetett tagság"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__partner
@@ -646,12 +645,12 @@ msgstr "Válassza ki, ha ingyenes tagságot szeretne adni."
 #: model_terms:ir.ui.view,arch_db:membership.membership_product_search_form_view
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Start Date"
-msgstr "Kezdődátum"
+msgstr "Kezdő dátum"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Starting Date Of Membership"
-msgstr "Tagság kezdetének dátuma"
+msgstr "Tagság kezdő dátuma"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.membership_products_form
@@ -689,7 +688,7 @@ msgstr ""
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line__date_to
 msgid "To"
-msgstr "Záró dátum"
+msgstr "Címzett"
 
 #. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter

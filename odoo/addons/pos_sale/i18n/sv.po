@@ -26,7 +26,7 @@ msgstr ""
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "<span class=\"o_form_label\">Sales Team</span>"
-msgstr "<span class=\"o_form_label\">Försäljningsteam </span>"
+msgstr "<span class=\"o_form_label\">Försäljnings Team </span>"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
@@ -73,7 +73,7 @@ msgstr "Ny"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
 msgid "Open POS Sessions"
-msgstr "Öppna kassasessioner"
+msgstr "Öppna session"
 
 #. module: pos_sale
 #: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
@@ -88,22 +88,22 @@ msgstr "Betalad"
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Kassakonfigurering"
+msgstr "POS-konfigurering"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_order
 msgid "Point of Sale Orders"
-msgstr "Kassaorder"
+msgstr "Kassa Ordrar"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_pos_session
 msgid "Point of Sale Session"
-msgstr "Kassasession"
+msgstr "Kassa Session"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_config_ids
 msgid "Point of Sales"
-msgstr "Kassa"
+msgstr "POS - Kassa"
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__state__pos_done
@@ -113,12 +113,12 @@ msgstr "Bokförd"
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_sale_report
 msgid "Sales Analysis Report"
-msgstr "Rapport försäljningsanalys"
+msgstr "Försäljningsanalys Raport"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "Sales Reporting"
-msgstr "Försäljningsrapportering"
+msgstr "Försäljnings Raportering"
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_crm_team
@@ -126,27 +126,27 @@ msgstr "Försäljningsrapportering"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__crm_team_id
 #: model:ir.model.fields,field_description:pos_sale.field_pos_session__crm_team_id
 msgid "Sales Team"
-msgstr "Försäljningsteam"
+msgstr "Säljlag"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.pos_config_view_form_pos_sale
 msgid "Sales are reported to the following sales team"
-msgstr "Försäljning rapporteras till följande säljteam"
+msgstr "Försäljning raporteras till följande sälj team"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_salesteams_view_kanban_inherit_pos_sale
 msgid "Session Running"
-msgstr "Pågående session"
+msgstr "Pågående Session"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_order_amount_total
 msgid "Session Sale Amount"
-msgstr "Sessionens totalförsäljning"
+msgstr "Sessions Försäljning Totalt"
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.crm_team_salesteams_view_kanban_inherit_pos_sale
 msgid "Sessions Running"
-msgstr "Pågående sessioner"
+msgstr "Pågående Sessioner"
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__state
@@ -158,10 +158,10 @@ msgstr "Status"
 msgid ""
 "The rate of the currency to the currency of rate applicable at the date of "
 "the order"
-msgstr "Valutakurser beräknas till datum för order"
+msgstr ""
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_pos_config__crm_team_id
 #: model:ir.model.fields,help:pos_sale.field_pos_session__crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
-msgstr "Kassans försäljning relateras till detta försäljningsteam"
+msgstr ""

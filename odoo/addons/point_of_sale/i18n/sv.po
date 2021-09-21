@@ -9,16 +9,15 @@
 # Patrik Lermon <patrik.lermon@gmail.com>, 2021
 # Haojun Zou <apollo_zhj@msn.com>, 2021
 # lynnliuying <lynn.liu1971@gmail.com>, 2021
+# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Kristoffer Grundström <lovaren@gmail.com>, 2021
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2021
 # Robert Frykelius <robert.frykelius@linserv.se>, 2021
 # Fredrik Arvas <fredrik.arvas@vertel.se>, 2021
 # Martin Trigaux, 2021
 # Kim Asplund <kim.asplund@gmail.com>, 2021
-# Jakob Krabbe <jakob.krabbe@vertel.se>, 2021
-# STefan Rundgren <stefanrundgren@cellglas.com>, 2021
-# Chrille Hedberg <hedberg.chrille@gmail.com>, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2021
 # Simon Strömberg <simon.stromberg@vertel.se>, 2021
 # 
 msgid ""
@@ -387,17 +386,17 @@ msgstr "Aktiviteter"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoration för aktivitetsundantag"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_state
 msgid "Activity State"
-msgstr "Aktivitetsstatus"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Aktivitetstypsikon"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_form
@@ -1161,7 +1160,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Connected Devices"
-msgstr "Anslutna enheter"
+msgstr ""
 
 #. module: point_of_sale
 #. openerp-web
@@ -1940,7 +1939,7 @@ msgstr "Följare (kontakter)"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesomeikon t.ex fa-tasks"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -2140,7 +2139,7 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__message_has_error
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Om markerad så har det blivit ett leveransfel för några  meddelanden."
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__split_transactions
@@ -2961,7 +2960,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__picking_type_id
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Operation Type"
-msgstr "Operationstyp"
+msgstr ""
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -3857,7 +3856,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:point_of_sale.product_product_action
 #: model:ir.ui.menu,name:point_of_sale.pos_config_menu_action_product_product
 msgid "Product Variants"
-msgstr "Produktvarianter"
+msgstr "Variant"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -4618,10 +4617,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baserad på aktiviteter\n"
-"Försenade: Förfallodagen har passerat\n"
-"Idag: Aktivitetsdatum är idag\n"
-"Kommande: Framtida aktiviteter."
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__update_stock_at_closing
@@ -4755,7 +4750,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_config__iface_tax_included__subtotal
 msgid "Tax-Excluded Price"
-msgstr "Pris ex moms"
+msgstr "Exkl. Skatt Pris"
 
 #. module: point_of_sale
 #: model:ir.model.fields.selection,name:point_of_sale.selection__pos_config__iface_tax_included__total
@@ -4938,7 +4933,7 @@ msgstr ""
 msgid ""
 "The rate of the currency to the currency of rate applicable at the date of "
 "the order"
-msgstr "Valutakurser beräknas till datum för order"
+msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_print_skip_screen
@@ -5358,7 +5353,7 @@ msgstr "Korttyp Använt"
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Typ av undantagsaktivitet i posten"
+msgstr ""
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0

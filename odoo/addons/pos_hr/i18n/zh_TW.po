@@ -4,7 +4,6 @@
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
-# Benson White <Benson.Dr@Gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -12,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
-"Last-Translator: Benson White <Benson.Dr@Gmail.com>, 2021\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2020\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,21 +29,21 @@ msgstr "<span class=\"o_form_label oe_edit_only\">被允許的員工</span>"
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_order_form_inherit
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_order_list_select_inherit
 msgid "Cashier"
-msgstr "收銀員"
+msgstr "收銀櫃檯"
 
 #. module: pos_hr
 #. openerp-web
 #: code:addons/pos_hr/static/src/js/useSelectEmployee.js:0
 #, python-format
 msgid "Change Cashier"
-msgstr "更換收銀員"
+msgstr "更換收銀櫃檯"
 
 #. module: pos_hr
 #. openerp-web
 #: code:addons/pos_hr/static/src/xml/LoginScreen.xml:0
 #, python-format
 msgid "Close session"
-msgstr "關閉營業點"
+msgstr "關閉會話(POS前台)"
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_hr_employee__display_name
@@ -66,7 +65,7 @@ msgstr "員工"
 #: code:addons/pos_hr/models/hr_employee.py:0
 #, python-format
 msgid "Employee: %s - PoS Config(s): %s \n"
-msgstr "員工: %s - PoS設定: %s\n"
+msgstr "員工： %s - PoS 配置： %s\n"
 
 #. module: pos_hr
 #: model:ir.model.fields,field_description:pos_hr.field_pos_config__employee_ids
@@ -84,7 +83,7 @@ msgstr "ID"
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_config__employee_ids
 msgid "If left empty, all employees can log in to the PoS session"
-msgstr "如果留空，所有員工都可以登錄到 PoS營業點"
+msgstr "如果留空，所有員工都可以登錄到 PoS 會話"
 
 #. module: pos_hr
 #. openerp-web
@@ -113,14 +112,14 @@ msgstr "登入到"
 msgid ""
 "Only users with Manager access rights for PoS app can modify the product "
 "prices on orders."
-msgstr "僅具有 PoS應用的管理訪問權限的使用者能夠修改訂單上的產品價格。"
+msgstr "僅具有 PoS 應用的管理器訪問權限的使用者能夠修改訂單上的產品價格。"
 
 #. module: pos_hr
 #. openerp-web
 #: code:addons/pos_hr/static/src/js/useSelectEmployee.js:0
 #, python-format
 msgid "Password ?"
-msgstr "密碼?"
+msgstr "密碼？"
 
 #. module: pos_hr
 #: model:ir.model.fields,help:pos_hr.field_pos_order__employee_id
@@ -132,7 +131,7 @@ msgstr "使用收銀機的人可以是支援人員、工讀生或者兼職工作
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "POS設定"
+msgstr "POS配置"
 
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_pos_order
@@ -142,7 +141,7 @@ msgstr "POS訂單"
 #. module: pos_hr
 #: model:ir.model,name:pos_hr.model_report_pos_order
 msgid "Point of Sale Orders Report"
-msgstr "POS銷售訂單報告"
+msgstr "銷售訂單點報告"
 
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
@@ -152,7 +151,7 @@ msgstr "價格控制"
 #. module: pos_hr
 #: model_terms:ir.ui.view,arch_db:pos_hr.pos_config_form_view_inherit
 msgid "Restrict price modification to managers"
-msgstr "限制管理進行價格修改"
+msgstr "限制管理器進行價格修改"
 
 #. module: pos_hr
 #. openerp-web
@@ -174,7 +173,7 @@ msgstr "選擇收銀員"
 msgid ""
 "You cannot delete an employee that may be used in an active PoS session, "
 "close the session(s) first: \n"
-msgstr "您不能刪除可能在開啟PoS營業點中使用的員工，請先關閉POS營業點：\n"
+msgstr "您不能刪除可能在開啟 PoS 會話中使用的員工，請先關閉POS會話前台：\n"
 
 #. module: pos_hr
 #. openerp-web
@@ -188,4 +187,4 @@ msgstr "或"
 #: code:addons/pos_hr/static/src/xml/CashierName.xml:0
 #, python-format
 msgid "selectCashier"
-msgstr "選擇收銀員"
+msgstr ""

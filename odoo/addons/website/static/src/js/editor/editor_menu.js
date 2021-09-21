@@ -123,9 +123,7 @@ var EditorMenu = Widget.extend({
         return this.wysiwyg.save(false).then(function (result) {
             var $wrapwrap = $('#wrapwrap');
             self.editable($wrapwrap).removeClass('o_editable');
-            if (!result.isDirty) {
-                self.cancel(reload);
-            } else if (result.isDirty && reload !== false) {
+            if (result.isDirty && reload !== false) {
                 // remove top padding because the connected bar is not visible
                 $('body').removeClass('o_connected_user');
                 return self._reload();

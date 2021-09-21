@@ -39,7 +39,7 @@ msgstr ""
 #: code:addons/iap/static/src/xml/iap_templates.xml:0
 #, python-format
 msgid "Buy credits"
-msgstr "Köp krediter"
+msgstr ""
 
 #. module: iap
 #. openerp-web

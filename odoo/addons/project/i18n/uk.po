@@ -27,28 +27,28 @@ msgstr ""
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"Refused\""
-msgstr "\"Відхилено\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"This Month\""
-msgstr "\"Цій місяць\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"This Week\""
-msgstr "\"Цей тиждень\""
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "\"Today\""
-msgstr "\"Сьогодні\""
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__delay_endings_days
@@ -93,7 +93,7 @@ msgstr "%s (копія)"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "%s Use the %s icon to organize your daily activities."
-msgstr "%s Використовуйте %s іконку для організації ваших щоденних завдань."
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__10
@@ -105,7 +105,7 @@ msgstr "10"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__11
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__11
 msgid "11"
-msgstr "11"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__12
@@ -117,13 +117,13 @@ msgstr "12"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__13
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__13
 msgid "13"
-msgstr "13"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__14
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__14
 msgid "14"
-msgstr "14"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__15
@@ -135,85 +135,85 @@ msgstr "15"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__16
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__16
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__17
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__17
 msgid "17"
-msgstr "17"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__18
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__18
 msgid "18"
-msgstr "18"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__19
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__19
 msgid "19"
-msgstr "19"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__20
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__20
 msgid "20"
-msgstr "20"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__21
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__21
 msgid "21"
-msgstr "21"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__22
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__22
 msgid "22"
-msgstr "22"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__23
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__23
 msgid "23"
-msgstr "23"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__24
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__24
 msgid "24"
-msgstr "24"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__25
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__25
 msgid "25"
-msgstr "25"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__26
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__26
 msgid "26"
-msgstr "26"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__27
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__27
 msgid "27"
-msgstr "27"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__28
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__28
 msgid "28"
-msgstr "28"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__29
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__29
 msgid "29"
-msgstr "29"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__30
@@ -225,14 +225,14 @@ msgstr "30"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_day__31
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_day__31
 msgid "31"
-msgstr "31"
+msgstr ""
 
 #. module: project
 #. openerp-web
 #: code:addons/project/static/src/js/tours/project.js:0
 #, python-format
 msgid "<b>Drag &amp; drop</b> the card to change your task from stage."
-msgstr "<b>Перетягніть</b> картку, щоби змінити завдання з етапу."
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -243,9 +243,6 @@ msgid ""
 "    of the note you are logging unless you specifically tag them)</i>. Use @ <b>mentions</b> to ping a colleague \n"
 "    or # <b>mentions</b> to reach an entire team."
 msgstr ""
-"<b>Запишіть примітки</b> для внутршіньої комунікації <i>(люди, підписані під цим завданням, не будуть сповіщені \n"
-"    про примітку, яку ви пишете, якщо ви не позначите їх тегом)</i>. Використовуйте @ <b>згадування</b> , щоби позначити колегу \n"
-"    або # <b>згадування</b>, щоб охопити всю команду."
 
 #. module: project
 #: model:mail.template,body_html:project.rating_project_request_email_template
@@ -311,66 +308,6 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
-"<div>\n"
-"    % set access_token = object.rating_get_access_token()\n"
-"    % set partner = object.rating_get_partner_id()\n"
-"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
-"    <tbody>\n"
-"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
-"            % if partner.name:\n"
-"                Вітаємо ${partner.name},<br/><br/>\n"
-"            % else:\n"
-"                Вітаємо,<br/><br/>\n"
-"            % endif\n"
-"            Знайдіть час, щоби оцінити наші послуги, пов'язані із цим завданням \"<strong>${object.name}</strong>\"\n"
-"            % if object.rating_get_rated_partner_id().name:\n"
-"                призначене до <strong>${object.rating_get_rated_partner_id().name}</strong>.<br/>\n"
-"            % else:\n"
-"                .<br/>\n"
-"            % endif\n"
-"        </td></tr>\n"
-"        <tr><td style=\"text-align: center;\">\n"
-"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" summary=\"o_mail_notification\" style=\"width:100%; margin: 32px 0px 32px 0px;\">\n"
-"                <tr><td style=\"font-size: 13px;\">\n"
-"                    <strong>Розкажіть нам, що ви думаєте про наші послуги</strong><br/>\n"
-"                    <span style=\"text-color: #888888\">(натисніть на один зі смайлів)</span>\n"
-"                </td></tr>\n"
-"                <tr><td style=\"font-size: 13px;\">\n"
-"                    <table style=\"width:100%;text-align:center;\">\n"
-"                        <tr>\n"
-"                            <td>\n"
-"                                <a href=\"/rate/${access_token}/5\">\n"
-"                                    <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Satisfied\"/>\n"
-"                                </a>\n"
-"                            </td>\n"
-"                            <td>\n"
-"                                <a href=\"/rate/${access_token}/3\">\n"
-"                                    <img alt=\"Not satisfied\" src=\"/rating/static/src/img/rating_3.png\" title=\"Not satisfied\"/>\n"
-"                                </a>\n"
-"                            </td>\n"
-"                            <td>\n"
-"                                <a href=\"/rate/${access_token}/1\">\n"
-"                                    <img alt=\"Highly Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Highly Dissatisfied\"/>\n"
-"                                </a>\n"
-"                            </td>\n"
-"                        </tr>\n"
-"                    </table>\n"
-"                </td></tr>\n"
-"            </table>\n"
-"        </td></tr>\n"
-"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
-"            Ми вдячні за ваш відгук. Це допоможе нам стати кращими.\n"
-"            % if object.project_id.rating_status == 'stage':\n"
-"                <br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\">Це опитування клієнта надіслане, тому що ваше завдання змінило етап на <b>${object.stage_id.name}</b></span>\n"
-"            % endif\n"
-"            % if object.project_id.rating_status == 'periodic':\n"
-"                <br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\">Це опитування клієнта надіслане <b>${object.project_id.rating_status_period}</b> поки завдання є на етапі <b>${object.stage_id.name}</b>.</span>\n"
-"            % endif\n"
-"        </td></tr>\n"
-"    </tbody>\n"
-"    </table>\n"
-"</div>\n"
-"            "
 
 #. module: project
 #: model:mail.template,body_html:project.mail_template_data_project_task
@@ -423,7 +360,7 @@ msgstr ""
 #: code:addons/project/models/project.py:0
 #, python-format
 msgid "<p><em>Number of tasks: %(tasks_count)s</em></p>"
-msgstr "<p><em>Кількість завдань: %(tasks_count)s</em></p>"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_task
@@ -436,13 +373,11 @@ msgid ""
 "<span attrs=\"{'invisible': ['|', ('repeat_show_week', '=', False), "
 "('repeat_show_month', '=', False)]}\">of</span>"
 msgstr ""
-"<span attrs=\"{'invisible': ['|', ('repeat_show_week', '=', False), "
-"('repeat_show_month', '=', False)]}\"></span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "<span class=\"fa fa-check-circle\"/> Next Occurrences:"
-msgstr "<span class=\"fa fa-check-circle\"/> Наступні випадки:"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_project
@@ -455,8 +390,6 @@ msgid ""
 "<span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible':  [('alias_name', '=', False)]}\">to </span>\n"
 "                                            <span class=\"font-weight-bold oe_edit_only\">to </span>"
 msgstr ""
-"<span class=\"font-weight-bold oe_read_only\" attrs=\"{'invisible':  [('alias_name', '=', False)]}\">до </span>\n"
-"                                            <span class=\"font-weight-bold oe_edit_only\">до </span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_kanban
@@ -470,9 +403,6 @@ msgid ""
 "                                    Customer Satisfaction\n"
 "                                </span>"
 msgstr ""
-"<span class=\"o_stat_text\">\n"
-"                                    Вдоволеність клієнта\n"
-"                                </span>"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
@@ -622,7 +552,7 @@ msgstr "Адміністратор"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Agile Scrum"
-msgstr "Agile Scrum"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_id
@@ -658,32 +588,32 @@ msgstr "Всі"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__employees
 msgid "All internal users"
-msgstr "Усі внутрішні користувачі"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__recurrence_update__all
 msgid "All tasks"
-msgstr "Усі завдання"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__allow_subtasks
 msgid "Allow Sub-tasks"
-msgstr "Дозволити підзавдання"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_internal_user_ids
 msgid "Allowed Internal Users"
-msgstr "Дозволені внутрішні користувачі"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_portal_user_ids
 msgid "Allowed Portal Users"
-msgstr "Дозволені портальні користувачі"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__allowed_user_ids
 msgid "Allowed User"
-msgstr "Дозволений користувач"
+msgstr ""
 
 #. module: project
 #: model:ir.model,name:project.model_account_analytic_account
@@ -715,12 +645,12 @@ msgstr "Архів"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
 msgid "Archive Stages"
-msgstr "Архівувати етапи"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_delete_wizard_form
 msgid "Archive project"
-msgstr "Архівувати проект"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
@@ -735,7 +665,7 @@ msgstr "Заархівовано"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_confirmation_wizard
 msgid "Are you sure you want to continue?"
-msgstr "Ви впевнені, що хочете продовжити?"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_task_type_delete_wizard
@@ -953,7 +883,7 @@ msgstr "Місто"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid "Client Review"
-msgstr "Рев'ю клієнта"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__is_closed
@@ -1062,12 +992,12 @@ msgstr "Створіть новий етап у конвеєрі завдань"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.edit_project
 msgid "Create tasks by sending an email"
-msgstr "Створювати завдання, надіславши email"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
 msgid "Create tasks by sending an email to"
-msgstr "Створювати завдання, надіславши email"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__create_date
@@ -1108,7 +1038,7 @@ msgstr "Валюта"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
 msgid "Current project of the task"
-msgstr "Поточний проект завдання"
+msgstr ""
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks
@@ -1169,12 +1099,12 @@ msgstr "Оцінювання клієнта"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__rating_status
 msgid "Customer Ratings Status"
-msgstr "Статус рейтингу клієнта"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.rating_rating_action_task
 msgid "Customer Ratings on Task"
-msgstr "Рейтинг клієнта на завданні"
+msgstr ""
 
 #. module: project
 #. openerp-web
@@ -1203,25 +1133,25 @@ msgstr "Щодня"
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_on_month__date
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_on_month__date
 msgid "Date of the Month"
-msgstr "Дата місяця"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_on_year__date
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_on_year__date
 msgid "Date of the Year"
-msgstr "Дата року"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__repeat_weekday
 #: model:ir.model.fields,field_description:project.field_project_task_recurrence__repeat_weekday
 msgid "Day Of The Week"
-msgstr "День тижня"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_on_month__day
 #: model:ir.model.fields.selection,name:project.selection__project_task_recurrence__repeat_on_month__day
 msgid "Day of the Month"
-msgstr "День місяця"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__repeat_on_year__day

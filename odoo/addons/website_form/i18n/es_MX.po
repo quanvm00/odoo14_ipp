@@ -148,7 +148,7 @@ msgstr "Centro"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid "Checkbox"
-msgstr "Casilla de selección"
+msgstr "Casilla de verificación"
 
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
@@ -339,7 +339,7 @@ msgstr "Modelos"
 #. module: website_form
 #: model_terms:ir.ui.view,arch_db:website_form.s_website_form_options
 msgid "Multiple Checkboxes"
-msgstr "Múltiples casillas"
+msgstr "Múltiples casillas de verificación "
 
 #. module: website_form
 #. openerp-web

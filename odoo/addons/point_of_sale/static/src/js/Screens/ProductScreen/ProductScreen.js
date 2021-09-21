@@ -215,12 +215,7 @@ odoo.define('point_of_sale.ProductScreen', function(require) {
 
             // update the options depending on the type of the scanned code
             if (code.type === 'price') {
-                Object.assign(options, {
-                    price: code.value,
-                    extras: {
-                        price_manually_set: true,
-                    },
-                });
+                Object.assign(options, { price: code.value });
             } else if (code.type === 'weight') {
                 Object.assign(options, {
                     quantity: code.value,

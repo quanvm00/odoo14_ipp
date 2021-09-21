@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!--Sale Out report-->
+        <record id="row_data_report_xlsx" model="ir.actions.report">
+            <field name="name">Raw Data Report(Xlsx)</field>
+            <field name="model">report.row.data.wizard</field>
+            <field name="report_name">partner_code.row_data_report_xlsx</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_file">Raw Data Report</field>
+            <!--<field name="auto" eval="False"/>-->
+        </record>
+
+
+
+
+    </data>
+</odoo>

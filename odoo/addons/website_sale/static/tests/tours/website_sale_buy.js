@@ -53,20 +53,14 @@ tour.register('shop_buy_product', {
             trigger: '#cart_products tr:contains("Storage Box") a.js_add_cart_json:first',
         },
         {
-            content: "set three",
+            content: "set one",
             extra_trigger: '#wrap:not(:has(#cart_products tr:contains("Storage Box")))',
             trigger: '#cart_products input.js_quantity',
-            run: 'text 3',
-        },
-        {
-            content: "check amount",
-            // wait for cart_update_json to prevent concurrent update
-            trigger: '#order_total span.oe_currency_value:contains("49.50")',
-            run: function () {}, // it's a check
+            run: 'text 1',
         },
         {
             content: "go to checkout",
-            extra_trigger: '#cart_products input.js_quantity:propValue(3)',
+            extra_trigger: '#cart_products input.js_quantity:propValue(1)',
             trigger: 'a[href*="/shop/checkout"]',
         },
         {

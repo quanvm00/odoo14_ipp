@@ -4,9 +4,9 @@
 # 
 # Translators:
 # ТАрас <tratatuta@i.ua>, 2020
+# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2020
 # Martin Trigaux, 2020
 # Bohdan Lisnenko, 2021
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:10+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
-"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
+"Last-Translator: Bohdan Lisnenko, 2021\n"
 "Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr "Використовуйте принтер, підключений до
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "!props.isBill"
-msgstr "!props.isBill"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:pos.config,customer_facing_display_html:pos_restaurant.pos_config_restaurant
@@ -157,7 +157,7 @@ msgstr "Додати новий принтер замовлень рестора
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Add a tip"
-msgstr "Додати чайові"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -170,12 +170,12 @@ msgstr "Додати кнопку"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Add notes on order lines"
-msgstr "Додати примітки на рядку замовлення"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Add tip after payment (North America specific)"
-msgstr "Додати чайові після замовлення (особливості Північної Америки)"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -183,7 +183,7 @@ msgstr "Додати чайові після замовлення (особли�
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreenElectronicPayment.xml:0
 #, python-format
 msgid "Adjust Amount"
-msgstr "Коригувати суму"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__set_tip_after_payment
@@ -191,8 +191,6 @@ msgid ""
 "Adjust the amount authorized by payment terminals to add a tip after the "
 "customers left or at the end of the day."
 msgstr ""
-"Відкоригуйте суму, дозволену платіжними терміналами, щоб додати чайові після"
-" того, як клієнти пішли або в кінці дня."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_orderline_notes
@@ -349,7 +347,7 @@ msgstr "Закрити"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Close Tab"
-msgstr "Закрити вкладку"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.product,name:pos_restaurant.pos_food_club
@@ -380,7 +378,7 @@ msgstr "Створив"
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer__create_date
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__create_date
 msgid "Created on"
-msgstr "Створено"
+msgstr "Створено на"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -393,7 +391,7 @@ msgstr "Видалити"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Design floors and assign orders to tables"
-msgstr "Налаштуйте поверхи та призначте замовлення на столи"
+msgstr ""
 
 #. module: pos_restaurant
 #: model_terms:pos.config,customer_facing_display_html:pos_restaurant.pos_config_restaurant
@@ -480,7 +478,7 @@ msgstr "Зали"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__is_table_management
 msgid "Floors & Tables"
-msgstr "Поверхи та столи"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.food
@@ -492,13 +490,13 @@ msgstr "Їжа"
 #: code:addons/pos_restaurant/static/src/xml/Screens/ReceiptScreen/OrderReceipt.xml:0
 #, python-format
 msgid "For convenience, we are providing the following gratuity calculations:"
-msgstr "Для зручності ми надаємо такі розрахунки виплати:"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.product,name:pos_restaurant.pos_food_funghi
 #: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
 msgid "Funghi"
-msgstr "Фунджі"
+msgstr "Funghi"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -569,7 +567,7 @@ msgid ""
 "If false, the table is deactivated and will not be available in the point of"
 " sale"
 msgstr ""
-"Якщо помилка, стіл буде деактивовано і він не буде доступний в точці продажу"
+"Якщо помилка, стіл деактивовано і він не буде доступний в точці продажу"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__module_pos_restaurant
@@ -581,7 +579,7 @@ msgstr "Є баром/рестораном"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "Keep Open"
-msgstr "Залишити відкритим"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config____last_update
@@ -592,7 +590,7 @@ msgstr "Залишити відкритим"
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer____last_update
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table____last_update
 msgid "Last Modified on"
-msgstr "Останні зміни"
+msgstr "Останні зміни на"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__write_uid
@@ -674,12 +672,12 @@ msgstr "Сендвіч з моцареллою"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order_line__mp_dirty
 msgid "Mp Dirty"
-msgstr "Mp Dirty"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_order__multiprint_resume
 msgid "Multiprint Resume"
-msgstr "Підсумок у кілька друків"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -701,7 +699,7 @@ msgstr "ПРИМІТКА"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "No Tip"
-msgstr "Немає чайових"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -900,7 +898,7 @@ msgstr "Принтери"
 #: code:addons/pos_restaurant/static/src/js/Screens/TipScreen.js:0
 #, python-format
 msgid "Printing is not supported on some browsers"
-msgstr "Друк не підтримується у деяких браузерах"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -911,8 +909,6 @@ msgid ""
 "protocol is available. It is possible to print your tickets by making use of"
 " an IoT Box."
 msgstr ""
-"Друк не підтримується в деяких браузерах через відсутність протоколу друку "
-"за замовчуванням. Роздрукувати квитки можна за допомогою IoT Box."
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_printer__proxy_ip
@@ -964,7 +960,7 @@ msgstr "Перейменувати"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Reprint receipts"
-msgstr "Повторно роздрукувати чеки"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_restaurant_floor
@@ -1051,7 +1047,7 @@ msgstr "Обслуговує"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__set_tip_after_payment
 msgid "Set Tip After Payment"
-msgstr "Встановити чайові після платежу"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1059,7 +1055,7 @@ msgstr "Встановити чайові після платежу"
 #: code:addons/pos_restaurant/static/src/xml/Screens/TipScreen.xml:0
 #, python-format
 msgid "Settle"
-msgstr "Встановлення"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__shape
@@ -1094,7 +1090,7 @@ msgstr "Розділити"
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Split total or order lines"
-msgstr "Розбивання суми або замовлених рядків"
+msgstr "Розбивання загальних або замовлених рядків"
 
 #. module: pos_restaurant
 #: model:ir.model.fields.selection,name:pos_restaurant.selection__restaurant_table__shape__square
@@ -1251,14 +1247,14 @@ msgstr "Чайові"
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "Tip:"
-msgstr "Чайові:"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/TicketScreen.js:0
 #, python-format
 msgid "Tipping"
-msgstr "Чайові"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1289,21 +1285,21 @@ msgstr "Бірюза"
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to change background color"
-msgstr "Неможливо змінити фоновий колір"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to create table because you are offline."
-msgstr "Неможливо створити стіл, бо ви офлайн."
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/js/Screens/FloorScreen/FloorScreen.js:0
 #, python-format
 msgid "Unable to delete table"
-msgstr "Неможливо видалити стіл"
+msgstr ""
 
 #. module: pos_restaurant
 #: model:product.product,uom_name:pos_restaurant.coke
@@ -1418,8 +1414,6 @@ msgid ""
 "You cannot remove a table that is used in a PoS session, close the "
 "session(s) first."
 msgstr ""
-"Ви не можете вилучити стіл, що використовується у сесії точки продажу, "
-"спочатку закрийте сесію."
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1427,14 +1421,14 @@ msgstr ""
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "________________________"
-msgstr "________________________"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
 #: code:addons/pos_restaurant/static/src/xml/TipReceipt.xml:0
 #, python-format
 msgid "______________________________________________"
-msgstr "______________________________________________"
+msgstr ""
 
 #. module: pos_restaurant
 #. openerp-web
@@ -1469,4 +1463,4 @@ msgstr "знижка"
 #: code:addons/pos_restaurant/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
 #, python-format
 msgid "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
-msgstr "env.pos.config.set_tip_after_payment and !currentOrder.is_paid()"
+msgstr ""

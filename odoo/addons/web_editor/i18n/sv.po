@@ -104,7 +104,7 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
 msgid "<span>Blocks</span>"
-msgstr "<span>Block</span>"
+msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
@@ -1493,12 +1493,12 @@ msgstr "Citat"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb
 msgid "Qweb"
-msgstr "Qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field
 msgid "Qweb Field"
-msgstr "Qweb-fält"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_contact

@@ -14,8 +14,6 @@
 # Leif Persson <leifpz54@gmail.com>, 2021
 # Kim Asplund <kim.asplund@gmail.com>, 2021
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2021
-# STefan Rundgren <stefanrundgren@cellglas.com>, 2021
-# Daniel Eriksson <daniel.eriksson@vertel.se>, 2021
 # Simon Strömberg <simon.stromberg@vertel.se>, 2021
 # 
 msgid ""
@@ -179,17 +177,17 @@ msgstr "Aktiviteter"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoration för aktivitetsundantag"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_state
 msgid "Activity State"
-msgstr "Aktivitetsstatus"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Aktivitetstypsikon"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_line__type__add
@@ -375,7 +373,7 @@ msgstr "Beskrivning"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_line__location_dest_id
 msgid "Dest. Location"
-msgstr "Destinationsplats"
+msgstr "Lagerställedestination"
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_account_move__display_name
@@ -455,7 +453,7 @@ msgstr "Följare (kontakter)"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesomeikon t.ex fa-tasks"
+msgstr ""
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
@@ -512,7 +510,7 @@ msgstr ""
 #: model:ir.model.fields,help:repair.field_repair_order__message_has_error
 #: model:ir.model.fields,help:repair.field_repair_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Om markerad så har det blivit ett leveransfel för några  meddelanden."
+msgstr ""
 
 #. module: repair
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
@@ -566,7 +564,7 @@ msgstr ""
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
 msgid "Invoice and shipping address:"
-msgstr "Faktura och leveransadress:"
+msgstr ""
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
@@ -817,7 +815,7 @@ msgstr "Produktantal"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__tracking
 msgid "Product Tracking"
-msgstr "Produktspårning"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_fee__product_uom
@@ -1089,10 +1087,6 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baserad på aktiviteter\n"
-"Försenade: Förfallodagen har passerat\n"
-"Idag: Aktivitetsdatum är idag\n"
-"Kommande: Framtida aktiviteter."
 
 #. module: repair
 #: model:ir.model,name:repair.model_stock_move
@@ -1194,7 +1188,7 @@ msgstr "Typ"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Typ av undantagsaktivitet i posten"
+msgstr ""
 
 #. module: repair
 #: model:ir.model.fields.selection,name:repair.selection__repair_order__state__under_repair

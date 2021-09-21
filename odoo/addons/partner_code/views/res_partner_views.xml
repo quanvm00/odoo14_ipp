@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<odoo>
+
+
+    <record id="view_country_state_form_inherit_code" model="ir.ui.view">
+        <field name="name">view.country.state.form.inherit.code</field>
+        <field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='country_id']" position="after">
+                <field name="sequence_id"/>
+            </xpath>
+
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button name="gen_sequence" string="Gen Sequence" type="object" class="oe_highlight"/>
+                </header>
+            </xpath>
+
+        </field>
+    </record>
+
+
+    <record id="view_partner_form_inherit_code" model="ir.ui.view">
+        <field name="name">view.partner.form.form.inherit.code</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="default_code" readonly="1"/>
+            </xpath>
+            <xpath expr="//field[@name='state_id']" position="replace">
+                <field name="state_id" class="o_address_state" placeholder="State"
+                       options="{'no_open': True, 'no_quick_create': True}"
+                       attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)], 'required': [('company_type', '!=', False)]}"
+                       context="{'country_id': country_id, 'default_country_id': country_id, 'zip': zip}"/>
+            </xpath>
+
+            <xpath expr="//page[@name='sales_purchases']//field[@name='user_id']" position="replace">
+                <field name="user_id" domain="[('share', '=', False)]" context="{'user_company': 1}"/>
+            </xpath>
+
+
+        </field>
+    </record>
+
+
+    <record id="view_order_form_inherit_sale_user_company" model="ir.ui.view">
+        <field name="name">sale.order.form.sale.user_company</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position="replace">
+                <field name="user_id" domain="[('share', '=', False)]" context="{'user_company': 1}"/>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="base.view_country_state_tree" model="ir.ui.view">
+        <field name="name">res.country.state.tree</field>
+        <field name="model">res.country.state</field>
+        <field name="arch" type="xml">
+            <tree string="State">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="country_id" options="{'no_create': True}"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="view_order_form_inherit_qty_confirmed" model="ir.ui.view">
+        <field name="name">view.order.form.inherit.qty.confirmed</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='order_line']/form/group/group/field[@name='price_unit']" position="after">
+                    <field name="qty_confirmed" invisible="0" readonly="1"/>
+                </xpath>
+                <xpath expr="//field[@name='order_line']/tree/field[@name='price_unit']" position="after">
+                    <field name="qty_confirmed" invisible="0" readonly="1"/>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+
+</odoo>
