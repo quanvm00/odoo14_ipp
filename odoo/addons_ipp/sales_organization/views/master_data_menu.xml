@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <menuitem id="crm_menu_masterdata"
+              name="Master Data"
+              parent="crm.crm_menu_config"
+              sequence="20"/>
+
+
+</odoo>
