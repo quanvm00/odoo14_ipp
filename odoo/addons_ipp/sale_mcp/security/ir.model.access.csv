@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_mcp,access_sale_mcp,model_sale_mcp,base.group_user,1,1,1,1
+access_res_partner_saleperson,access_res_partner_saleperson,model_res_partner_saleperson,base.group_user,1,1,1,1
