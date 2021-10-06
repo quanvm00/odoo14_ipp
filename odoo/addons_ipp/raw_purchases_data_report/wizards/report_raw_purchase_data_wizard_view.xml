@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="menu_purchase_excel_report"
+                  name="Excel Reporting"
+                  parent="purchase.menu_purchase_root"
+                  sequence="5"
+        />
+        <record id="report_raw_purchases_data_wizard_form_view" model="ir.ui.view">
+            <field name="name">report.raw.purchases.data.wizard.form.view</field>
+            <field name="model">report.raw.purchases.data.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Raw Data Report">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="month" attrs="{'invisible': [('use_range_date', '=', True)]}"/>
+                                <field name="year" attrs="{'invisible': [('use_range_date', '=', True)]}"/>
+                                <field name="use_range_date"/>
+                                <field name="date_from" attrs="{'invisible': [('use_range_date', '=', False)]}"/>
+                                <field name="date_to" attrs="{'invisible': [('use_range_date', '=', False)]}"/>
+                            </group>
+                            <group>
+                                <field name="categ_ids" invisible="1"/>
+                            </group>
+                        </group>
+                        <footer>
+                            <button name="export_xls" type="object" default_focus="1"
+                                    string="Export Excel" class="oe_highlight"
+                                    context="{'xls_export':1}" icon="fa-download"/>
+                            or
+                            <button string="Cancel" class="oe_link" special="cancel"/>
+                        </footer>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_report_raw_purchases_data_wizard" model="ir.actions.act_window">
+            <field name="name">Raw Data Report</field>
+            <field name="res_model">report.raw.purchases.data.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem id="menu_purchase_report"
+            name="Reporting"
+            parent="purchase.menu_purchase_root"
+            sequence="5"
+            groups="purchase.group_purchase_manager"/>
+
+        <menuitem id="purchase.purchase_report" name="Purchase" parent="menu_purchase_report" sequence="1"
+                  groups="purchase.group_purchase_manager" action="purchase.action_purchase_order_report_all"/>
+
+        <menuitem id="menu_action_report_raw_purchases_data_wizard"
+                  action="action_report_raw_purchases_data_wizard"
+                  parent="menu_purchase_report"
+                  sequence="1" name="Raw Data Report"/>
+    </data>
+</odoo>
