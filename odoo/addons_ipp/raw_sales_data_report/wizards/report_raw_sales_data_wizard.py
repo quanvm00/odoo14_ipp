@@ -21,7 +21,6 @@ DICT_MONTH = {'1': 'January', '2': 'February', '3': 'March', '4': 'April',
               }
 
 
-# LIST_YEAR = [('2021', '2021')]
 
 
 class ReportRowDataWizard(models.TransientModel):
@@ -59,14 +58,12 @@ class ReportRowDataWizard(models.TransientModel):
                               ('5', 'May'), ('6', 'June'), ('7', 'July'), ('8', 'August'),
                               ('9', 'September'), ('10', 'October'), ('11', 'November'), ('12', 'December'), ],
                              string='Month', required=True, default=_default_month)
-    year = fields.Selection(
-        [('2021', '2021')]
-        , string='Year', required=True, default=_default_year)
-
     # year = fields.Selection(
-    #     # LIST_YEAR
-    #     ([(num, str(num)) for num in range(2021, (datetime.now().year) + 1)], 'Year')
+    #     [('2021', '2021')]
     #     , string='Year', required=True, default=_default_year)
+
+    year = fields.Selection(LIST_YEAR, string='Year', required=True, default=_default_year)
+
 
     categ_ids = fields.Many2many('product.category', 'report_raw_sales_data_cate_rel', 'wizard_id', 'categ_id',
                                  'Product Categories',
@@ -86,7 +83,7 @@ class ReportRowDataWizard(models.TransientModel):
                 'data': {'model': 'report.raw.sales.data.wizard',
                          'options': json.dumps(data, default=date_utils.json_default),
                          'output_format': 'xlsx',
-                         'report_name': 'Raw data',
+                         'report_name': 'Sale Raw data',
                          },
                 'report_type': 'xlsx'}
 

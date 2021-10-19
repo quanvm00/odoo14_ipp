@@ -1,3 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_wizard_stock_history_user,wizard.stock.history,model_wizard_stock_history,base.group_user,1,1,1,1
 access_report_raw_purchases_data_wizard,access_report_raw_purchases_data_wizard,model_report_raw_purchases_data_wizard,base.group_user,1,1,1,1
