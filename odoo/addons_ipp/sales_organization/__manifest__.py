@@ -15,6 +15,7 @@
         'crm',
         'sale',
         'account',
+        'stock',
     ],
     "data": [
         'security/ir.model.access.csv',
@@ -22,6 +23,7 @@
         'views/region_area_view.xml',
         'views/res_company_view.xml',
         "views/account_fiscal_year_views.xml",
+        'views/stock_location_view.xml',
     ],
     'images': [],
 

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="crm_menu_mcp"
+                  name="MCP"
+                  parent="crm.crm_menu_config"
+                  sequence="20"/>
+
+        <record id="view_sale_mcp_tree" model="ir.ui.view">
+            <field name="name">sale.mcp.tree</field>
+            <field name="model">sale.mcp</field>
+            <field name="arch" type="xml">
+                <tree string="MCP">
+                    <field name="partner_id"/>
+                    <field name="user_id"/>
+                    <field name="date_visit"/>
+                    <field name="name"/>
+                    <field name="default_code"/>
+                    <field name="contact_address"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_sale_mcp_search" model="ir.ui.view">
+            <field name="name">sale.mcp.search</field>
+            <field name="model">sale.mcp</field>
+            <field name="arch" type="xml">
+                <search string="Search MCP">
+                    <field name="partner_id"/>
+                    <field name="user_id"/>
+                    <field name="date_visit"/>
+                    <field name="name"/>
+                    <field name="default_code"/>
+                    <separator/>
+                    <separator/>
+                    <group expand="0" string="Group By">
+                        <filter string="Customer" name="Customer" context="{'group_by':'partner_id'}"/>
+                        <filter string="User" name="User" context="{'group_by':'user_id'}"/>
+                        <filter string="Order Month" name="OrderMonth" context="{'group_by':'date_visit:month'}"/>
+                        <filter string="Order Day" name="OrderDay" context="{'group_by':'date_visit:day'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+
+        <record id="view_sale_mcp_form" model="ir.ui.view">
+            <field name="name">sale.mcp.form</field>
+            <field name="model">sale.mcp</field>
+            <field name="arch" type="xml">
+                <form string="MCP">
+                    <header>
+                    </header>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="partner_id"/>
+                                <field name="user_id"/>
+                                <field name="date_visit"/>
+                            </group>
+                            <group>
+                                <field name="name"/>
+                                <field name="default_code"/>
+                                <field name="contact_address"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_sale_mcp" model="ir.actions.act_window">
+            <field name="name">MCP</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sale.mcp</field>
+            <field name="view_id" ref="view_sale_mcp_tree"/>
+        </record>
+
+        <menuitem id="crm_reveal_rule_menu_action"
+                  action="action_sale_mcp"
+                  parent="crm_menu_mcp"
+                  sequence="5"/>
+
+    </data>
+</odoo>
