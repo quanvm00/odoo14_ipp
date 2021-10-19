@@ -25,9 +25,8 @@
                     <notebook>
                         <page string="Customers">
                             <group>
-                                <field name="line_ids" nolabel="1"
-                                       context="{'find_customer':1, 'get_user_id': user_id}">
-                                    <tree string="Lines" editable="bottom" context="{'find_customer':2}">
+                                <field name="line_ids" nolabel="1" >
+                                    <tree string="Lines" editable="bottom"  >
                                         <field name="partner_id"/>
                                         <field name="default_code" readonly="1"/>
                                         <field name="phone" readonly="1"/>

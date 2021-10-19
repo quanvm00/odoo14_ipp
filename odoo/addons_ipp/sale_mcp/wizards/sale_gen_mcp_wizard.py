@@ -18,8 +18,7 @@ class SaleGenMcpWizard(models.TransientModel):
     name = fields.Char("Name")
 
     # company_id = fields.Many2one('res.company', string='NPP')
-    company_id = fields.Many2one('res.company', 'Company',
-                                 default=lambda self: self.env['res.company']._company_default_get())
+    company_id = fields.Many2one('res.company', 'Company')
 
     area_id = fields.Many2one('res.area', related='company_id.region_area_id', string='Area', readonly=True)
 
@@ -43,14 +42,27 @@ class SaleGenMcpWizard(models.TransientModel):
 
     @api.onchange('user_id', )
     def _onchange_parent_id(self):
+        partner_saleperson_obj = self.env['res.partner.saleperson']
         vals = {}
         if self.user_id:
             old_line = []
-            lst_customer = self.env['res.partner'].search([('user_id', '=', self.user_id.id)])
+            lst_customer = partner_saleperson_obj.search([('user_id', '=', self.user_id.id)])
             for line in lst_customer:
-                old_line.append((0, 0, {'partner_id': line.id,
+                old_line.append((0, 0, {'partner_id': line.partner_id.id,
+                                        'phone': line.partner_id.phone or '',
+                                        'mobile': line.partner_id.mobile or '',
                                         'user_id': self.user_id,
+                                        'company_id': line.partner_id.company_id and line.partner_id.company_id.id or False,
+
+                                        'monday': line.monday or '',
+                                        'tuesday': line.tuesday or '',
+                                        'wednesday': line.wednesday or '',
+                                        'thursday': line.thursday or '',
+                                        'friday': line.friday or '',
+                                        'saturday': line.saturday or '',
+                                        'sunday': line.sunday or '',
                                         }))
+
             vals.update({
                 'line_ids': old_line
             })
@@ -95,8 +107,7 @@ class SaleGenMcpWizardLine(models.TransientModel):
     mcp_id = fields.Many2one('sale.gen.mcp.wizard', 'MCP')
 
     partner_id = fields.Many2one('res.partner', string='Customer',
-                                 required=True,
-                                 domain=[('customer', '=', True)], )
+                                 required=True)
     user_id = fields.Many2one('res.users', string='Salesperson')
     company_id = fields.Many2one('res.company', string='Company')
 

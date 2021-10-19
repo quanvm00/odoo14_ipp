@@ -66,12 +66,11 @@ class McpMcp(models.Model):
 
         dd = [date_from + timedelta(days=x) for x in range((date_to - date_from).days + 1)]
         res = []
-        if not lst_partner:
-            lst_partner = partner_obj.search(['|', ('active', '=', False), ('active', '=', True),
-                                              ('customer', '=', 'True'),
-                                              ('is_company', '=', False),
-                                              ('user_id', '!=', False),
-                                              ], order="id asc").ids
+        if not lst_partner:#res_partner_search_mode
+            lst_partner = partner_obj.with_context(res_partner_search_mode='customer').search(
+                                            ['|', ('active', '=', False), ('active', '=', True),
+                                             ('is_company', '=', False),
+                                             ], order="id asc").ids
         # remove old data with condition : date_from <= date_visit <= date_to and partner
         old_data = mcp_obj.search([('date_visit', '>=', date_from),
                                    ('partner_id', 'in', lst_partner)

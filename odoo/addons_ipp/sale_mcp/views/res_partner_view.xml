@@ -6,12 +6,13 @@
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
-
+            <xpath expr="//field[@name='company_id']" position="after">
+                <attribute name="required">1</attribute>
+            </xpath>
             <xpath expr="//field[@name='email']" position="after">
                 <button name="gen_mcp" type="object" string="gen_mcp"/>
             </xpath>
             <xpath expr="//page[@name='internal_notes']" position="before">
-
                 <page string="Sale Visit" name="sale_visit">
                     <field name="saleperson_ids">
                         <tree string="Lines" editable="bottom">
