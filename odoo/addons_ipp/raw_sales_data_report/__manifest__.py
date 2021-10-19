@@ -15,7 +15,7 @@
     "external_dependencies": {"python": ["xlsxwriter", "xlrd"]},
     'depends': [
         'base', "web", 'stock', 'sale', 'purchase',
-        'partner_code','sales_organization'
+        'partner_code', 'sales_organization'
     ],
     'data': [
         "views/webclient_templates.xml",
@@ -26,9 +26,7 @@
         'wizards/report_raw_sales_data_wizard_view.xml',
     ],
     'images': [],
-    "demo": ["demo/report.xml"],
 
     'installable': True,
-    'auto_install': False,
     'auto_install': False,
 }

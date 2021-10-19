@@ -9,6 +9,7 @@ import io
 from odoo import api, fields, models, _
 from odoo.tools import date_utils
 from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+
 try:
     from odoo.tools.misc import xlsxwriter
 except ImportError:
@@ -59,14 +60,11 @@ class ReportRowDataWizard(models.TransientModel):
                               ('5', 'May'), ('6', 'June'), ('7', 'July'), ('8', 'August'),
                               ('9', 'September'), ('10', 'October'), ('11', 'November'), ('12', 'December'), ],
                              string='Month', required=True, default=_default_month)
-    year = fields.Selection(
-        [('2021', '2021')]
-        , string='Year', required=True, default=_default_year)
-
     # year = fields.Selection(
-    #     # LIST_YEAR
-    #     ([(num, str(num)) for num in range(2021, (datetime.now().year) + 1)], 'Year')
+    #     [('2021', '2021')]
     #     , string='Year', required=True, default=_default_year)
+
+    year = fields.Selection(LIST_YEAR, string='Year', required=True, default=_default_year)
 
     categ_ids = fields.Many2many('product.category', 'reportrowdata_cate_rel', 'wizard_id', 'categ_id',
                                  'Product Categories',
@@ -89,7 +87,6 @@ class ReportRowDataWizard(models.TransientModel):
                          'report_name': 'Raw data',
                          },
                 'report_type': 'xlsx'}
-
 
     def convert_tz_utc(self, dt):
         tz = self.env['res.users'].browse(self._uid).tz
@@ -127,7 +124,7 @@ class ReportRowDataWizard(models.TransientModel):
         col_cate = 0
         lst_title = [
             'Date', 'DTR Code', 'Dist Name',
-            'Order Nbr', 'SR Code', 'SR Name', 'Customer Code', 'Customer Name', 'Street',
+            'Order Nbr', 'SR Code', 'SR Name', 'Supplier Code', 'Supplier Name', 'Street',
             'Region/ Area',
             'Province Code', 'Province Name',
             'Product Category Code', 'Product Code', 'Product Name', 'Unit Sold',
@@ -147,7 +144,7 @@ class ReportRowDataWizard(models.TransientModel):
         categ_ids = wizard.categ_ids
         lst_po = self.env['purchase.order'].search([('state', 'in', ['done', 'purchase'])
 
-                                                ]).ids or [-1]
+                                                    ]).ids or [-1]
         last_day_of_month = calendar.monthrange(year, month)[1]
         date_start = '{:04d}-{:02d}-01'.format(year, month)
         date_end = '{:04d}-{:02d}-{:02d}'.format(year, month, last_day_of_month)
@@ -257,7 +254,6 @@ class ReportRowDataWizard(models.TransientModel):
                             'code': line['code'] or ''}
                     })
         return res
-
 
     def get_company(self):
         sql = """ SELECT com.id as id, partner.name as name, COALESCE(com.code, '') as code
@@ -396,7 +392,8 @@ class ReportRowDataWizard(models.TransientModel):
             sheet.write(row, col_line + 6, partner_id and get_partner[partner_id]['code'] or '', format_data)
             sheet.write(row, col_line + 7, partner_id and get_partner[partner_id]['name'] or '', format_data)
             sheet.write(row, col_line + 8, partner_id and get_partner[partner_id]['street'] or '', format_data)
-            sheet.write(row, col_line + 9, region_area_id and get_region_area[region_area_id]['name'] or '', format_data)
+            sheet.write(row, col_line + 9, region_area_id and get_region_area[region_area_id]['name'] or '',
+                        format_data)
             sheet.write(row, col_line + 10, partner_id and get_partner_province[partner_id]['code'] or '', format_data)
             sheet.write(row, col_line + 11, partner_id and get_partner_province[partner_id]['name'], format_data)
             sheet.write(row, col_line + 12, categ_id and get_product_category[categ_id]['name'], format_data)
