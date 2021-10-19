@@ -23,6 +23,7 @@
         'views/action_manager.xml',
         'security/ir.model.access.csv',
 
+        # wizards
         'wizards/report_raw_purchase_data_wizard_view.xml',
     ],
     'images': [],
