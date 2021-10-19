@@ -260,7 +260,7 @@ class ReportRowDataWizard(models.TransientModel):
 
 
     def get_company(self):
-        sql = """ SELECT com.id as id, partner.name as name,  COALESCE(partner.default_code, '') as code
+        sql = """ SELECT com.id as id, partner.name as name, COALESCE(com.code, '') as code
                     FROM res_company com
                         INNER JOIN res_partner partner ON (partner.id = com.partner_id)
         """
@@ -377,7 +377,6 @@ class ReportRowDataWizard(models.TransientModel):
 
         for line in value:
             #  lay      theo    company
-            # manager_id = line.get('manager_id', False)
             company_id = line.get('company_id', False)
             user_id = line.get('user_id', False)
             partner_id = line.get('partner_id', False)
