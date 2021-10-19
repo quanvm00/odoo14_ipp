@@ -3,16 +3,20 @@
     <data>
 
         <record id="region_area_view_form" model="ir.ui.view">
-            <field name="name">Region/ Area</field>
+            <field name="name">region.area.view.form</field>
             <field name="model">region.area</field>
             <field name="arch" type="xml">
-                <form string="Region/ Area">
+                <form string="Area">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="code"/>
-                            <field name="manager_id"/>
-                            <field name="user_ids" widget="many2many_tags"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="code"/>
+                                <field name="manager_id"/>
+                            </group>
+                            <group>
+                                <field name="user_ids" widget="many2many_tags"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>
@@ -20,10 +24,10 @@
         </record>
 
         <record id="region_area_view_tree" model="ir.ui.view">
-            <field name="name">Region/ Area</field>
+            <field name="name">region.area.view.tree</field>
             <field name="model">region.area</field>
             <field name="arch" type="xml">
-                <tree string="Region/ Area">
+                <tree string="Area">
                     <field name="name"/>
                     <field name="code"/>
                     <field name="manager_id"/>
@@ -32,15 +36,27 @@
         </record>
 
         <record id="region_area_view_search" model="ir.ui.view">
-            <field name="name">account.tag.view.search</field>
+            <field name="name">region.area.view.search</field>
             <field name="model">region.area</field>
             <field name="arch" type="xml">
                 <search>
                     <field name="name"/>
                     <field name="code"/>
+                    <field name="manager_id"/>
                 </search>
             </field>
         </record>
 
+        <record id="action_region_area_view_form" model="ir.actions.act_window">
+            <field name="name">Area</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">region.area</field>
+            <field name="view_id" ref="region_area_view_tree"/>
+        </record>
+
+        <menuitem id="menu_action_region_area_view_form"
+                  action="action_region_area_view_form"
+                  parent="crm_menu_masterdata"
+                  sequence="5"/>
     </data>
 </odoo>

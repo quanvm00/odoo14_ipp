@@ -12,10 +12,12 @@
     'website': '',
     'depends': [
         'base',
+        'crm',
         'sale',
     ],
     'data': [
         'security/ir.model.access.csv',
+        'views/master_data_menu.xml',
         'views/region_area_view.xml',
         'views/res_company_view.xml',
     ],
