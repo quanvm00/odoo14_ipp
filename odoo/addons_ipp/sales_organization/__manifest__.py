@@ -14,16 +14,17 @@
         'base',
         'crm',
         'sale',
+        'account',
     ],
-    'data': [
+    "data": [
         'security/ir.model.access.csv',
         'views/master_data_menu.xml',
         'views/region_area_view.xml',
         'views/res_company_view.xml',
+        "views/account_fiscal_year_views.xml",
     ],
     'images': [],
 
     'installable': True,
-    'auto_install': False,
     'auto_install': False,
 }
