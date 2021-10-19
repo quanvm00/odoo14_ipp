@@ -1,3 +1,6 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_sale_mcp,access_sale_mcp,model_sale_mcp,base.group_user,1,1,1,1
+access_mcp_mcp,access_mcp_mcp,model_mcp_mcp,base.group_user,1,1,1,1
 access_res_partner_saleperson,access_res_partner_saleperson,model_res_partner_saleperson,base.group_user,1,1,1,1
+access_sale_mcp,access_sale_mcp,model_sale_mcp,base.group_user,1,1,1,1
+access_sale_gen_mcp_wizard,access_sale_gen_mcp_wizard,model_sale_gen_mcp_wizard,base.group_user,1,1,1,1
+access_sale_gen_mcp_wizard_line,access_sale_gen_mcp_wizard_line,model_sale_gen_mcp_wizard_line,base.group_user,1,1,1,1
