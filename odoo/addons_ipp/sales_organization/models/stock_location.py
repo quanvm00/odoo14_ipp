@@ -11,3 +11,4 @@ class StockLocation(models.Model):
          ('promotion', 'Promotion'),
          ('other', 'Other'),
          ], 'Type', copy=False, default='main')
+    code = fields.Char('Code')
