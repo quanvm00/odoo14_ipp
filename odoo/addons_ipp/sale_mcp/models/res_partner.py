@@ -7,3 +7,8 @@ class Respartner(models.Model):
     _inherit = 'res.partner'
 
     saleperson_ids = fields.One2many('res.partner.saleperson', 'partner_id', string='Salepersons')
+
+    def gen_mcp(self):
+        mcp_obj = self.env['mcp.mcp'].sudo()
+        mcp_obj.action_gen_mcp(self.ids)
+        return True

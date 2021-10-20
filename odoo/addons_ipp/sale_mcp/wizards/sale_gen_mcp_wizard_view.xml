@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <record id="sale_gen_mcp_wizard_form_view" model="ir.ui.view">
+            <field name="name">sale.gen.mcp.wizard.form.view</field>
+            <field name="model">sale.gen.mcp.wizard</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Gen MCP">
+                    <group>
+                        <group>
+                            <field name="company_id" required="True"/>
+                            <field name="user_id" required="True"/>
+                        </group>
+                        <group>
+                            <field name="date_from" required="True"/>
+                            <field name="date_to" required="True"/>
+                            <field name="date_todate" invisible="1"/>
+                            <button name="gen_mcp" type="object"
+                                    string="Gen MCP" class="oe_highlight"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Customers">
+                            <group>
+                                <field name="line_ids" nolabel="1" >
+                                    <tree string="Lines" editable="bottom"  >
+                                        <field name="partner_id"/>
+                                        <field name="default_code" readonly="1"/>
+                                        <field name="phone" readonly="1"/>
+                                        <field name="mobile" readonly="1"/>
+                                        <field name="contact_address" readonly="1"/>
+
+                                        <field name="monday"/>
+                                        <field name="tuesday"/>
+                                        <field name="wednesday"/>
+                                        <field name="thursday"/>
+                                        <field name="friday"/>
+                                        <field name="saturday"/>
+                                        <field name="sunday"/>
+                                        <field name="user_id"/>
+                                    </tree>
+                                </field>
+                            </group>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_sale_gen_mcp_wizard" model="ir.actions.act_window">
+            <field name="name">Gen MCP</field>
+            <field name="res_model">sale.gen.mcp.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+
+        <menuitem id="action_sale_gen_mcp_wizard_menu"
+                  name="Gen MCP"
+                  action="action_sale_gen_mcp_wizard"
+                  parent="crm_menu_mcp"
+                  sequence="14"/>
+
+    </data>
+</odoo>

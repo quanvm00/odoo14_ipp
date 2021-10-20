@@ -13,12 +13,18 @@
     'website': '',
     'depends': [
         'crm',
+        'sales_organization'
 
     ],
     'data': [
+
         'security/ir.model.access.csv',
-        'views/sale_mcp_view.xml',
+        'views/menu.xml',
+        'views/mcp_mcp_view.xml',
         'views/res_partner_view.xml',
+
+        'wizards/sale_gen_mcp_wizard_view.xml',
+
     ],
     'images': [],
 
