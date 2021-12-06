@@ -10,6 +10,7 @@ class ResCompany(models.Model):
 
     region_area_id = fields.Many2one('region.area', string='Area')
     code = fields.Char('Code')
+    manager_id = fields.Many2one('res.users', string='Company Manager')
 
     def compute_fiscalyear_dates(self, current_date):
         """Computes the start and end dates of the fiscal year
