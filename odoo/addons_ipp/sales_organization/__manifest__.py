@@ -15,7 +15,7 @@
         'crm',
         'sale',
         'account',
-        'stock',
+        'stock', 'restful'
     ],
     "data": [
         'security/ir.model.access.csv',
