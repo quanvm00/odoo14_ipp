@@ -46,6 +46,7 @@ class APIController(APIController):
                 so_val = {
                     'user_id': so.user_id and so.user_id.id or False,
                     'partner_id': so.partner_id.id,
+                    'partner_name': so.partner_id.name or '',
                     'partner_code': so.partner_id.default_code or '',
                     'partner_invoice_id': so.partner_invoice_id and so.partner_invoice_id.id or False,
                     'partner_invoice_name': so.partner_invoice_id and so.partner_invoice_id.name or '',
