@@ -53,12 +53,23 @@ class APIController(http.Controller):
             model = request.env[self._model].search([("model", "=", model)], limit=1)
             if model:
                 domain, fields, offset, limit, order = extract_arguments(**payload)
-                data = request.env[model.model].search_read(
-                    domain=domain, fields=fields, offset=offset, limit=limit, order=order,
-                )
+
+
+                # data = request.env[model.model].search_read(
+                #     domain=domain, fields=fields, offset=offset, limit=limit, order=order,
+                # )
 
                 if id:
                     domain = [("id", "=", int(id))]
+                    # data = request.env[model.model].search_read(
+                    #     domain=domain, fields=fields, offset=offset, limit=limit, order=order,
+                    # )
+
+                if hasattr(request.env[model.model], "search1_read_for_api"):
+                    data = request.env[model.model].search_read_for_api(
+                        domain=domain, fields=fields, offset=offset, limit=limit, order=order,
+                    )
+                else:
                     data = request.env[model.model].search_read(
                         domain=domain, fields=fields, offset=offset, limit=limit, order=order,
                     )
