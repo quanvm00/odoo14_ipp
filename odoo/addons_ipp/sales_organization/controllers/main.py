@@ -12,7 +12,7 @@ class APIController(APIController):
     """."""
 
     @validate_token
-    @http.route('/ipp/get_sale_order', type="http", auth="none", methods=["GET"], csrf=False)
+    @http.route('/get_sale_order', type="http", auth="none", methods=["GET"], csrf=False)
     def get_sale_order(self, model=None, id=None, **payload):
         """."""
         # print("quan ga", payload.get('domain'))
