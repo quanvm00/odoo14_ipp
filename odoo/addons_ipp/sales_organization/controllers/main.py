@@ -20,7 +20,7 @@ class APIController(APIController):
         domain, fields, offset, limit, order = extract_arguments(payload)
         res = []
         if domain:
-            for so in so_obj.search(domain):
+            for so in so_obj.search(domain, limit=limit):
                 lst_sol = []
                 for line in so.order_line:
                     line_val = {
