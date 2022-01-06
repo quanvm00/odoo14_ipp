@@ -12,7 +12,7 @@ class APIController(APIController):
     """."""
 
     @validate_token
-    @http.route('/get_sale_order', type="http", auth="none", methods=["GET"], csrf=False)
+    @http.route('/ipp/get_sale_order', type="http", auth="none", methods=["GET"], csrf=False)
     def get_sale_order(self, model=None, id=None, **payload):
         """."""
         # print("quan ga", payload.get('domain'))
@@ -32,6 +32,7 @@ class APIController(APIController):
                         'price_unit': line.price_unit,
                         'discount': line.discount,
                         'product_qty': line.product_uom_qty,
+                        'product_uom_id': line.product_uom and line.product_uom.id or False,
                         'product_uom': line.product_uom and line.product_uom.name or '',
 
                         'qty_delivered': line.qty_delivered,
