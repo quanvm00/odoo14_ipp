@@ -42,19 +42,36 @@ def extract_arguments(payloads, offset=0, limit=None, order=None):
     """Parse additional data  sent along request."""
 
     fields, domain = [], []
-
-    if payloads.get("domain", None):
-        domain = ast.literal_eval(payloads.get("domain"))
-    if payloads.get("fields"):
-        fields = ast.literal_eval(payloads.get("fields"))
-    if payloads.get("offset"):
-        offset = int(payloads.get("offset"))
-    if payloads.get("limit"):
-        limit = int(payloads.get("limit"))
-    if payloads.get("order"):
-        order = payloads.get("order")
-    filters = [domain, fields, offset, limit, order]
-
+    er = ''
+    try:
+        if payloads.get("domain", None):
+            try:
+                domain = ast.literal_eval(payloads.get("domain"))
+            except:
+                er += 'Wrong domain'
+        if payloads.get("fields"):
+            try:
+                fields = ast.literal_eval(payloads.get("fields"))
+            except:
+                er += ' Wrong fields'
+        if payloads.get("offset"):
+            try:
+                offset = int(payloads.get("offset"))
+            except:
+                er += ' Wrong offset'
+        if payloads.get("limit"):
+            try:
+                limit = int(payloads.get("limit"))
+            except:
+                er += ' Wrong limit'
+        if payloads.get("order"):
+            try:
+                order = payloads.get("order")
+            except:
+                er += ' Wrong order'
+        filters = [domain, fields, offset, limit, order]
+    except :
+        return {'error': er}
     return filters
 # def extract_arguments(limit="80", offset=0, order="id", domain="", fields=[]):
 #     """Parse additional data  sent along request."""
