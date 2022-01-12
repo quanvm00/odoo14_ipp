@@ -1,22 +1,54 @@
 from odoo import http
 from odoo.addons.restful.controllers.main import validate_token, APIController
-from odoo.addons.restful.common import (extract_arguments, invalid_response,
+from odoo.addons.restful.common import (extract_arguments, invalid_response,valid_response1,
                                         valid_response)
 from odoo.http import request
 import json
 
-_routes = ["/ipp/<model>", "/ipp/<model>/<id>", "/ipp/<model>/<id>/<action>"]
+
+# _routes = ["/ipp/<model>", "/ipp/<model>/<id>", "/ipp/<model>/<id>/<action>"]
 
 
 class APIController(APIController):
-    """."""
 
-    # TODO: check unused code
     @validate_token
-    @http.route('/ipp/get_sale_order_not_use', type="http", auth="none", methods=["GET"], csrf=False)
+    @http.route('/ipp/cancel_sale_order', type="http", auth="none", methods=["POST"], csrf=False)
+    def cancel_sale_order(self, **payload):
+        so_obj = request.env['sale.order'].sudo()
+        res = {}
+        if payload.get('OrderID', False):
+            order_name = payload.get('OrderID', False)
+            so = so_obj.search([('name', '=', order_name)], limit=1)
+            if so:
+                so.action_unlock()
+                so.action_cancel()
+                res.update({
+                    'code': 200,
+                    'data': {
+                        'status': 1,
+                        'message': 'Order canceled successfully', },
+
+                })
+            else:
+                res.update({
+                    'code': 200,
+                    'data': {
+                        'status': 0,
+                        'message': 'Order %s does not exist' % (order_name), }
+                })
+        else:
+            res.update({
+                'code': 400,
+                'data': {
+                    'status': 0,
+                    'message': 'Data error', }
+            })
+
+        return valid_response1(res)
+
+    @validate_token
+    @http.route('/ipp/get_sale_order', type="http", auth="none", methods=["GET"], csrf=False)
     def get_sale_order(self, model=None, id=None, **payload):
-        """."""
-        # print("quan ga", payload.get('domain'))
         so_obj = request.env['sale.order'].sudo()
         domain, fields, offset, limit, order = extract_arguments(payload)
         res = []
@@ -64,7 +96,7 @@ class APIController(APIController):
                     'note': so.note,
                     'state': so.state,
                     'order_line_items': lst_sol,
-                    'amount_untaxed':so.amount_untaxed,
+                    'amount_untaxed': so.amount_untaxed,
                     'amount_tax': so.amount_tax,
                     'amount_total': so.amount_total,
                 }
